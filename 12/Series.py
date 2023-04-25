@@ -1,8 +1,7 @@
 
-
+from Media import *
 
 class Series(Media):
-    def __init__(self,name,director,IMDB_score,url,duration,casts,session,episods):
-        super().__init__(name,director,IMDB_score,url,duration,casts)
+    def __init__(self,name,director,imdb_score,url,year,casts,session):
+        super().__init__(name,director,imdb_score,url,year,casts)
         self.session=session
-        self.episods=episods

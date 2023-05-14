@@ -28,7 +28,6 @@ class Game(arcade.Window):
             self.pear.draw()
             
         if self.gameoverzero==1 or self.gameover_outfit==1 or self.gameover_collision==1:
-            self.pear.draw()
             self.snake.change_x=0
             self.snake.change_y=0
             arcade.draw_text("GAME OVER",self.width//4,self.height//2,arcade.color.RED,28,16)

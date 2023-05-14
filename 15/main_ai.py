@@ -93,7 +93,7 @@ class Eatfood():
 
 class Game(arcade.Window):
     def __init__(self):
-        super().__init__(width=500, height=500, title="Super Snake V1")
+        super().__init__(width=500, height=500, title="Super Snake V2")
         self.apple=Apple(self)
         self.pear=Pear(self)
         self.poo=Poo(self)

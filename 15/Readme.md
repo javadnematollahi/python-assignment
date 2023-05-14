@@ -27,6 +27,7 @@ The game over window shows in below picture:
 
 
 If you run main file, you can play snake game with defined keys. 
+
 If you run main_ai file, snake game is opened but this time computer play the game. In fact we write an AI for snake game in main_ai file.
 
 

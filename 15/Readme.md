@@ -15,11 +15,16 @@ There are some situations lead to game over:
 
 You can move the snake with UP,DOWN,LEFT,RIGHT keys to different directions.
 
+
+
 The picture below shows the game screen:
+
 ![gamewindow](https://github.com/javad7189/python-assignment/assets/86910174/cbae2a3d-f3a5-4a0f-b18c-9680fdae7905)
 
 The game over window shows in below picture:
+
 ![gameover](https://github.com/javad7189/python-assignment/assets/86910174/75da13ea-b8c1-45fe-8629-6dc6976e9972)
+
 
 If you run main file, you can play snake game with defined keys. 
 If you run main_ai file, snake game is opened but this time computer play the game. In fact we write an AI for snake game in main_ai file.

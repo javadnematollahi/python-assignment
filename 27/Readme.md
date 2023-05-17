@@ -1,4 +1,4 @@
-There 4 question in this assignment. 
+There are 4 question in this assignment. 
 
 In the first one we convert a colored picture of batman to Black-Whtie picture. In addition we write "BATMAN" in the bottom of the batman.
 

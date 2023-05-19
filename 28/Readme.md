@@ -37,8 +37,7 @@ python question3.py
 
 soccer pitch output:
 
-![output](soccer.jpg)
+![soccer](https://github.com/javad7189/python-assignment/assets/86910174/382778ae-4956-4da5-b5f3-2a92d67d941a)
 
-The output of the question3 is shown in a video:
 
-![output](sticker.avi)
+The output of the question3 is shown in a video in output foler.

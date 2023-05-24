@@ -66,9 +66,9 @@ for pred in fa.get_landmarks(image, boxes):
 
 
 
-image1=cv2.resize(image,(800,800))
-cv2.imwrite("output/Big_eye_lips.jpg",final)
-cv2.imshow("result", final)
+image1=cv2.resize(final,(600,800))
+cv2.imwrite("output/Big_eye_lips.jpg",image1)
+cv2.imshow("result", image1)
 cv2.waitKey()
  
 

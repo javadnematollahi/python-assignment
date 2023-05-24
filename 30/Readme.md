@@ -45,7 +45,8 @@ output:
 
 output:
 
-![Big_eye_lips](https://github.com/javad7189/python-assignment/assets/86910174/8dd59789-fa41-44da-9a67-ddbff9cb351c)
+![Big_eye_lips](https://github.com/javad7189/python-assignment/assets/86910174/b82dcd1d-2647-4c2f-a019-5312f13f05a2)
+
 
 
 

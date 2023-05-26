@@ -28,7 +28,8 @@ in the first problem(first part) we applied several different kernels to the sam
 
 output:
 
-![b_edgedetection](https://github.com/javad7189/python-assignment/assets/86910174/58db2219-d268-482b-b912-f00c71e91a59)
+![total_result](https://github.com/javad7189/python-assignment/assets/86910174/4acecf99-34de-414b-b8cd-c0e64cc8471f)
+
 
 
 In part 2 we decryption of an image using a blur kernel which size is 3*3. But the values is 1 and 5. we do this by another kernel which size is 5 * 5.

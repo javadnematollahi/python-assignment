@@ -72,6 +72,7 @@ In the sixth question i made a funny webcam video. In this video i try to put pa
 instead of part of faces that belong to men or womens are painted.
 
 lets see the result. i try to do my best :)
+if below video does not play, then you can find this file in output folder which its name is "javad.mp4"
 
 output:
 

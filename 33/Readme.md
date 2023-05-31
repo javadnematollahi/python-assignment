@@ -76,7 +76,11 @@ lets see the result. i try to do my best :)
 output:
 
 
-https://github.com/javad7189/python-assignment/assets/86910174/195639e5-5b9b-4592-b33a-38804a8185bb
+
+
+https://github.com/javad7189/python-assignment/assets/86910174/03cd52f3-4a06-49a7-ab68-7ac700cc6077
+
+
 
 
 

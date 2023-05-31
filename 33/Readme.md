@@ -78,9 +78,6 @@ output:
 
 
 
-Uploading javad.mp4…
-
-
 
 
 

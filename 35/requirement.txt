@@ -1,0 +1,9 @@
+opencv-python
+numpy
+matplotlib
+copy
+Pillow
+mediapipe
+arabic_reshaper
+bidi.algorithm
+PySide6

@@ -89,7 +89,8 @@ first encrypt it and then decrypt it.
 outputs:
 
 
-![encrypte_image](https://github.com/javad7189/python-assignment/assets/86910174/1981e658-21b1-4d1a-b73e-d861a60eb9d7
+![encrypte_image](https://github.com/javad7189/python-assignment/assets/86910174/bb18d5a5-429a-4dfd-b89b-a215b5ebd31a)
+
 
 
 ![decrypte_image](https://github.com/javad7189/python-assignment/assets/86910174/fed6971c-9d62-43f2-9208-3ac88efb6c87)

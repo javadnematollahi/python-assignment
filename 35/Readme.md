@@ -43,9 +43,7 @@ output:
 
 
 
-Uploading color2.mp4…
-
-
+https://github.com/javad7189/python-assignment/assets/86910174/fe05351f-22e7-40fa-9cb1-884ad1d0491d
 
 
 
@@ -63,6 +61,7 @@ In the dynamic mode(question3_video) I use my mobie camera for record and I can 
 
 output:
 
+![my_pose_landmard](https://github.com/javad7189/python-assignment/assets/86910174/c36c1263-2d74-4d17-8c9d-9f6366438886)
 
 
 
@@ -74,12 +73,26 @@ histogram and I save them in an image below each other.
 
 outputs:
 
+![persian_txt](https://github.com/javad7189/python-assignment/assets/86910174/88ad19a4-1db4-4cf7-9508-cbf548235395)
+
+
+![grayscale_image](https://github.com/javad7189/python-assignment/assets/86910174/eeefebf8-bd82-4470-bea9-af28ff208d96)
+
+
+![hists](https://github.com/javad7189/python-assignment/assets/86910174/c2891708-c767-4bdd-bc65-f94ad3282456)
+
 
 
 In the fifth question I draw  a encrypt-decrypt exe file with pyside6 library so that I upload a predefined picture and
 first encrypt it and then decrypt it.
 
 outputs:
+
+
+![encrypte_image](https://github.com/javad7189/python-assignment/assets/86910174/1981e658-21b1-4d1a-b73e-d861a60eb9d7
+
+
+![decrypte_image](https://github.com/javad7189/python-assignment/assets/86910174/fed6971c-9d62-43f2-9208-3ac88efb6c87)
 
 
 

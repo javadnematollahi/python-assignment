@@ -24,6 +24,7 @@ in the first problem I transparent some part of the microsoft logo picture, so t
 
 output:
 
+![microsoft_transparent](https://github.com/javad7189/python-assignment/assets/86910174/47ea212b-e827-4cbb-b98c-9da08936c8a8)
 
 
 
@@ -38,6 +39,12 @@ red
 purpel
 
 output:
+
+
+
+
+Uploading color2.mp4…
+
 
 
 

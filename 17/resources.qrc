@@ -1,0 +1,29 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>input/00.jpg</file>
+    <file>input/log.jpg</file>
+    <file>input/sqrt.jpg</file>
+    <file>input/11.jpg</file>
+    <file>input/22.jpg</file>
+    <file>input/33.jpg</file>
+    <file>input/44.jpg</file>
+    <file>input/55.jpg</file>
+    <file>input/66.jpg</file>
+    <file>input/77.jpg</file>
+    <file>input/88.jpg</file>
+    <file>input/99.jpg</file>
+    <file>input/add.jpg</file>
+    <file>input/ce.jpg</file>
+    <file>input/cos.jpg</file>
+    <file>input/darsad.jpg</file>
+    <file>input/cot.jpg</file>
+    <file>input/dot.jpg</file>
+    <file>input/mosavi.jpg</file>
+    <file>input/negote.jpg</file>
+    <file>input/sin.jpg</file>
+    <file>input/sub.jpg</file>
+    <file>input/tan.jpg</file>
+    <file>input/taqsim.jpg</file>
+    <file>input/zarb.jpg</file>
+  </qresource>
+</RCC>

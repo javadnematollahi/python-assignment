@@ -35,6 +35,7 @@ The first page of the arkanoid game:
 
 output:
 
+![firstpage](https://github.com/javad7189/python-assignment/assets/86910174/658da2cf-5a8e-41c1-aa46-cf94810fe38b)
 
 
 
@@ -44,6 +45,7 @@ The playing window of arkanoid game.
 
 output:
 
+![playing page](https://github.com/javad7189/python-assignment/assets/86910174/744714f5-940b-43e3-870b-ff92e5f52189)
 
 
 
@@ -53,13 +55,7 @@ winners window of arkanoid game.
 output:
 
 
-
-
-
-
-In fourth question I detect skin body using HSV color space. if you try this with RGB color space,you'll see its very hard.
-
-outputs:
+![winnergame](https://github.com/javad7189/python-assignment/assets/86910174/cbd65c15-7d86-4535-8567-e1398459dd10)
 
 
 

@@ -33,6 +33,7 @@ Pong playground:
 output:
 
 
+![pong](https://github.com/javad7189/python-assignment/assets/86910174/5fbafea7-8713-4d3c-93b8-d730c25e46b6)
 
 
 

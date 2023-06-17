@@ -42,8 +42,10 @@ In the second problem I try lobe software to classifying face images into two cl
 output:
 
 
+![happy_lobe](https://github.com/javad7189/python-assignment/assets/86910174/62322b24-b204-40b9-8093-a78e18a73945)
 
 
+![suprise_lobe](https://github.com/javad7189/python-assignment/assets/86910174/e28c0257-4fcb-4f7a-a6dc-9c4344e6af22)
 
 
 

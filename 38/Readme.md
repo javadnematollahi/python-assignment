@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ## How to Run
 
-
+Run each file in jupyter notebook
 
 
 ## Results
@@ -35,12 +35,15 @@ All of the results that I get in this assignment shown below.
 
 My certificate from sololearn site in Python for Data Science part:
 
+![cert-CT-CFHT9DZF](https://github.com/javad7189/python-assignment/assets/86910174/876114eb-9e67-4f2c-b9d5-c474efab91c4)
 
 
 Third question result:
 
+![ballon_melon](https://github.com/javad7189/python-assignment/assets/86910174/18ac7e3c-82af-4da0-9063-9f3dc2b03903)
 
 
 
 Fourth question result:
 
+![clifornia_cities](https://github.com/javad7189/python-assignment/assets/86910174/95ce3d9d-29c5-4333-ac85-deb2c195d876)

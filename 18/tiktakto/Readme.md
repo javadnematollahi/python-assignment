@@ -33,21 +33,25 @@ You can see different pages of game in below:
 
 first page:
 
+![firstpage](https://github.com/javad7189/python-assignment/assets/86910174/146960ab-be58-469d-9050-2d3fe0206774)
 
 
 
 second page:
 
+![secondpage](https://github.com/javad7189/python-assignment/assets/86910174/c370894e-9b04-411e-947a-733bea7bf894)
 
 
 
 third page:
 
+![thirdpage](https://github.com/javad7189/python-assignment/assets/86910174/4275859d-c047-4760-a740-4e3055463e4b)
 
 
 
 wining page:
 
+![winpage](https://github.com/javad7189/python-assignment/assets/86910174/2f143d17-f6c1-4d9a-a049-accddd54ae30)
 
 
 

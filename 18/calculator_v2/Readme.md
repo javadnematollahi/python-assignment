@@ -35,6 +35,7 @@ The face of calculator is shown below:
 output:
 
 
+![faceofcalculator](https://github.com/javad7189/python-assignment/assets/86910174/2f787b56-747a-40ca-ad67-9951ab3d2f71)
 
 
 

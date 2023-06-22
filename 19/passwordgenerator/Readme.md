@@ -1,5 +1,5 @@
 
-# Line Break Removal Software
+#Password generator Software
 In these projects I made a software with Qt designer and pyside6 library to generate three level password for different use
 
 Qt designer used to create User Interface part.
@@ -34,7 +34,7 @@ python generator.py
 
 You can see user interface of software in below:
 
-
+![userinterface](https://github.com/javad7189/python-assignment/assets/86910174/9364e2c9-d6ec-4e42-a4e7-e2f4ea3aeadb)
 
 
 

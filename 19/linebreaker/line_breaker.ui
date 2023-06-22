@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>899</width>
+    <height>821</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Text Editor</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(248, 255, 203);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="titr">
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Remove Line Breaks</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Choose one of these line break options.</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="3">
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QRadioButton" name="lbreaker">
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Remove line breaks only</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1" colspan="2">
+     <widget class="QRadioButton" name="pbreaker">
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Remove line breaks and paragraph breaks</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" colspan="3">
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0" colspan="3">
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="text">
+       <string>Paste your text in the box below and then click the button.
+The new text will appear in the box at the bottom of the page.</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0" colspan="3">
+     <widget class="QTextEdit" name="input">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+border: 2px solid;
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>New Text without Line Breaks</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QPushButton" name="linebreaker">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>Remove Line Breaks</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0" colspan="3">
+     <widget class="QTextEdit" name="output">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+border: 2px solid;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="2">
+     <widget class="QPushButton" name="copytoclip">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>Copy to ClipBoard</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

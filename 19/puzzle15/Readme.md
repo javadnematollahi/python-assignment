@@ -1,4 +1,3 @@
-
 # Puzzle 15
 In these projects I made a software with Qt designer and pyside6 library to create puzzle 15 game.
 
@@ -28,7 +27,7 @@ python main.py
 
 You can see user interface of game in below:
 
-
+![userinterface](https://github.com/javad7189/python-assignment/assets/86910174/8d8d2123-24de-4d59-a5c0-a48cdf69327a)
 
 
 

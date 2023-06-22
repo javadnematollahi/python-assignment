@@ -1,4 +1,3 @@
-
 # Translator software
 In these project I made a software with Qt designer and pyside6 library to translate your text.
 
@@ -34,6 +33,7 @@ python mytranslator.py
 
 You can see user interface of software in below:
 
+![userinterface](https://github.com/javad7189/python-assignment/assets/86910174/c19fd1b2-d8ef-4904-87f3-e88fe97c6830)
 
 
 

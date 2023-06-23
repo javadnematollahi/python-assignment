@@ -54,8 +54,10 @@ the result of python codes are on terminals.
 database:
 
 
+![products](https://github.com/javad7189/python-assignment/assets/86910174/77fe36cb-34d4-4780-b76b-f8b35b0c4174)
 
 
+![costumers](https://github.com/javad7189/python-assignment/assets/86910174/3a34d9a1-8aff-488f-93d2-6612c8a5090e)
 
 
 

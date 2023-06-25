@@ -37,12 +37,14 @@ python main.py
 the result of python codes are on terminals.
 
 
+![store](https://github.com/javad7189/python-assignment/assets/86910174/25c6d763-a606-4419-976c-f04a9a4c6892)
 
 
 
 database that I create for this project:
 
 
+![database](https://github.com/javad7189/python-assignment/assets/86910174/6328830a-6aeb-42ba-b107-6c1d6ef5889e)
 
 
 

@@ -33,6 +33,8 @@ python main.py
 
 The UI of todolist software is shown below:
 
+![todolistUI](https://github.com/javad7189/python-assignment/assets/86910174/ab985bc0-6aaa-4799-af0f-7ef8c512d8ca)
+
 
 
 

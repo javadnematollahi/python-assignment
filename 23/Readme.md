@@ -1,5 +1,5 @@
 
-# todolist
+# Sudoku
 In these project I write a code for sudoku.
 
 sudoku is a game with below rules:
@@ -63,19 +63,24 @@ different pages of game are shown below:
 
 main page:
 
+![first](https://github.com/javad7189/python-assignment/assets/86910174/bb2285cc-bc9c-4886-9b61-b3e9513e915b)
+
 
 win page:
 
+![winpage](https://github.com/javad7189/python-assignment/assets/86910174/5f0fb0c7-9d26-477c-97d3-011c4dbaf41f)
 
 
 
 About page:
 
+![about](https://github.com/javad7189/python-assignment/assets/86910174/9396c364-2adb-4784-a0d1-927336df3a59)
 
 
 
 Help page:
 
+![help](https://github.com/javad7189/python-assignment/assets/86910174/752f0a01-dd22-4ca8-8443-0714de773c0e)
 
 
 

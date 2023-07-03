@@ -56,6 +56,7 @@ mean=63.1136023916293, varianc=180.7721364011008
 
 second)
 
+![Billionaires_2](https://github.com/javad7189/python-assignment/assets/86910174/b4533966-c1f1-4853-beb8-b42b10ac5262)
 
 
 third)

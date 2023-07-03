@@ -52,7 +52,7 @@ Billionaire dataset:
 
 first)
 
-
+mean=63.1136023916293, varianc=180.7721364011008
 
 second)
 
@@ -60,10 +60,12 @@ second)
 
 third)
 
+![Billionaires_3](https://github.com/javad7189/python-assignment/assets/86910174/c1daa3d4-196c-4d43-83bf-bc75579836da)
 
 
 fourth)
 
+![Billionaires_4](https://github.com/javad7189/python-assignment/assets/86910174/37717a7b-aec5-4aeb-8a0f-17a3e4341a05)
 
 
 # second problem:
@@ -73,16 +75,20 @@ Lionel Messi Goals:
 
 first)
 
+![lionelmessi_1](https://github.com/javad7189/python-assignment/assets/86910174/6eb6f2dc-11f6-445c-aec2-60f031ba9792)
 
 
 second)
 
+![lionelmessi_2](https://github.com/javad7189/python-assignment/assets/86910174/c422ecbb-3579-45cf-aea2-b2ef144f246e)
 
 
 third)
  
+![lionelmessi_3](https://github.com/javad7189/python-assignment/assets/86910174/6b61fc5c-f2d6-4683-89c2-f46d2e541e15)
 
 
 fourth)
 
+Percent of equal goal of messi: 8.6%
 

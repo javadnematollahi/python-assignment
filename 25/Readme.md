@@ -60,29 +60,35 @@ different pages of clock are shown below:
 
 worldclock page:
 
-
+![world](https://github.com/javad7189/python-assignment/assets/86910174/5392a577-c4fd-481a-8ccf-d17b9e8f7e51)
 
 
 Alarm:
 
 
+![alarm](https://github.com/javad7189/python-assignment/assets/86910174/c1277b20-49de-4a59-b746-369389c105c1)
+
 
 edit Alarm:
 
+![editalarm](https://github.com/javad7189/python-assignment/assets/86910174/f3e73cf9-6cca-47f4-929f-42cc6af04031)
 
 
 add new alarm:
 
+![addalarm](https://github.com/javad7189/python-assignment/assets/86910174/143a2bde-6510-43f3-8223-8e9fcd2c2ab4)
 
 
 
 Timer:
 
+![timer](https://github.com/javad7189/python-assignment/assets/86910174/2d1dafe4-313c-4ef7-b6ea-2ae30801e5e2)
 
 
 
 StopWatch:
 
+![stopwatch](https://github.com/javad7189/python-assignment/assets/86910174/d2fd599e-2617-44ad-8f64-cb3019bca467)
 
 
 

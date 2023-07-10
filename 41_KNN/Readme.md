@@ -30,11 +30,13 @@ In each .ipynb file run each block to see the result.
 
 The diagram of fruits:
 
+![beforknn](https://github.com/javad7189/python-assignment/assets/86910174/85a71506-a53f-42df-8e42-72e1a123ee01)
 
 
 
 The diagram of fruits with new three data:
 
 
+![3_knn](https://github.com/javad7189/python-assignment/assets/86910174/3d3e70bb-a80d-41b2-b468-4d59c8759e5f)
 
 

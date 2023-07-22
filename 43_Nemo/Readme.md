@@ -96,13 +96,17 @@ In each .ipynb file run each block to see the result.
 
 nemo picture and mask and nemo picture after masking:(Trainig picture)
 
+![trainpicturenemo](https://github.com/javad7189/python-assignment/assets/86910174/c0fe1820-f74b-45f3-b6c3-f3588a7f009e)
 
 
 Input picture(a family member of nemo)
 
+![abji_nemo](https://github.com/javad7189/python-assignment/assets/86910174/c4e9f560-0428-4126-8a99-705bb5e50d21)
+
 
 Output picture(a family member of nemo that detected and separated from background)
 
+![abji_nemo](https://github.com/javad7189/python-assignment/assets/86910174/2e5db6ea-a73b-4769-ad89-50fcb5440eb5)
 
 
 
@@ -110,13 +114,19 @@ Output picture(a family member of nemo that detected and separated from backgrou
 
 dori picture and mask and dori picture after masking:(Trainig picture)
 
+![tainpicturedori](https://github.com/javad7189/python-assignment/assets/86910174/8fd4a623-cf08-4965-8ac0-09297e01ed0b)
 
 
 Input picture(a family member of dori)
 
+![doriparents](https://github.com/javad7189/python-assignment/assets/86910174/6b07fdcc-6af5-44a0-9949-fe7fa1970637)
+
 
 Output picture(a family member of dori that detected and separated from background)
 
+
+
+![doriparents](https://github.com/javad7189/python-assignment/assets/86910174/f5ada49a-b6c0-4e92-8012-eee1f85b995c)
 
 
 
@@ -130,6 +140,7 @@ result of accuracy for different K:
 
 confusion matrice for three class:
 
+![confusionmatricIRIS](https://github.com/javad7189/python-assignment/assets/86910174/0bd9d0a9-89ae-4390-b693-53240fdce6fb)
 
 
 
@@ -143,5 +154,6 @@ result of accuracy for different K:
 
 confusion matrice for two class:
 
+![confusionmatricbreastcancer](https://github.com/javad7189/python-assignment/assets/86910174/08a339b5-fc4d-4413-a9b0-38050474f9a2)
 
 

@@ -1,4 +1,3 @@
-![price2](https://github.com/javad7189/python-assignment/assets/86910174/688b0156-feba-4088-8923-2884dd3b31e7)
 # Machine learning 7_ LLS
 
 LLS or linear least sqaure is a regression algorithm and it is useful for solving linear problem.

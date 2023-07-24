@@ -1,4 +1,4 @@
-
+![price2](https://github.com/javad7189/python-assignment/assets/86910174/688b0156-feba-4088-8923-2884dd3b31e7)
 # Machine learning 7_ LLS
 
 LLS or linear least sqaure is a regression algorithm and it is useful for solving linear problem.
@@ -67,7 +67,12 @@ students data and predicted line with my LLS class and predicted line with scipy
 
 real data and the plane predicted with my lls algorithm
 
-![price](https://github.com/javad7189/python-assignment/assets/86910174/ab1c73d2-2e6e-4756-804e-eb0b1be48ee4)
+![price2](https://github.com/javad7189/python-assignment/assets/86910174/0d232807-f288-4745-82ea-d81638a23710)
 
 
-![price1](https://github.com/javad7189/python-assignment/assets/86910174/a54fae08-62ab-4027-bd2d-e0d009db8f5c)
+
+
+
+
+
+

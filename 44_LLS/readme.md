@@ -54,12 +54,12 @@ In each .ipynb file run each block to see the result.
 students data and predicted line with my LLS class.
 
 
-
-
+![student4](https://github.com/javad7189/python-assignment/assets/86910174/ccf6e6cb-f81e-418a-9202-5b0a5f92e013)
 
 
 students data and predicted line with my LLS class and predicted line with scipy:
 
+![student5](https://github.com/javad7189/python-assignment/assets/86910174/f958dd47-7157-4ec9-872c-ff3056469117)
 
 
 
@@ -67,5 +67,7 @@ students data and predicted line with my LLS class and predicted line with scipy
 
 real data and the plane predicted with my lls algorithm
 
+![price](https://github.com/javad7189/python-assignment/assets/86910174/ab1c73d2-2e6e-4756-804e-eb0b1be48ee4)
 
 
+![price1](https://github.com/javad7189/python-assignment/assets/86910174/a54fae08-62ab-4027-bd2d-e0d009db8f5c)

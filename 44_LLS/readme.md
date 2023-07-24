@@ -69,7 +69,9 @@ real data and the plane predicted with my lls algorithm
 
 ![price2](https://github.com/javad7189/python-assignment/assets/86910174/0d232807-f288-4745-82ea-d81638a23710)
 
+![price3](https://github.com/javad7189/python-assignment/assets/86910174/6d1e78a5-0bee-4fc4-b48c-d10256e3bc1b)
 
+![price4](https://github.com/javad7189/python-assignment/assets/86910174/2d2da215-33a3-49ae-9b66-3028ab8d91d8)
 
 
 

@@ -34,7 +34,7 @@ And then I fit these features and the price columns to LLs algorithm as train an
 
 ## Third problem:
 
-### Dollar house-prices
+### Dollar prices
 
 In the third problem I survey the Dollar price in 3 presidency. There is a dataset which collect by Taghizadeh from tgju.org site and you can
 access it from below link:
@@ -66,23 +66,54 @@ In each .ipynb file run each block to see the result.
 
 The price of 5 most expensive house in tehran:
 
+![mostexpensivehouse](https://github.com/javad7189/python-assignment/assets/86910174/7b38ddb4-d770-4ffc-891f-4f0205607454)
+
 
 Results of MY_LLS model and RidgeCV and LinearRegression for tehran house price:
 
+|  ------------------Result of 3 model for Tehran House Price------------------        |
+|-------------------------------------------------------------------------|
 
-
+|                  |     MAE    |           MSE           |   RMSE     | 
+|------------------|------------|-------------------------|------------|
+|      My LLS      | 2930688119 | 3.438959156695921e+19   | 5864263940 |
+|      RidgeCV     | 2904911211 | 3.0727363607843246e+19  | 5543226822 |
+| LinearRegression | 2904911211 | 3.0727363607843246e+19  | 5543226822 |
 
 #### third problem:
 
 MAX dollar price:
 
+|  ------------Max Dollar Price In 3 presidency----------------        |
+|-------------------------------------------------------------------------|
 
+|                  |     Price(Rial)    |
+|------------------|------------|
+|      max price of dollar in ahmadinejad presidency      | 39700 | 
+|      max price of dollar in Rouhani presidency          | 320060 |
+|      max price of dollar in raisi presidency            | 555600 |
 
 
 Min dollar price:
 
+|  -------------Min Dollar Price In 3 presidency---------------        |
+|-------------------------------------------------------------------------|
 
+|                  |     Price(Rial)    |
+|------------------|------------|
+|      min price of dollar in ahmadinejad presidency      | 13350 | 
+|      min price of dollar in Rouhani presidency          | 12850 |
+|      min price of dollar in raisi presidency            | 251250 |
 
 
 MAE for dollar price:
 
+
+| MAE for Dollar Price Prediction In 3 presidency       |
+|-------------------------------------------------------------------------|
+
+|                  |     Price(Rial)    |
+|------------------|------------|
+|      MAE for ahmadinejad presidency      | 8058.283383 | 
+|      MAE for rouhani presidency          | 62206.575309 |
+|      MAE for raisi presidency            | 81580.806895 |

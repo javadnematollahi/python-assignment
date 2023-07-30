@@ -8,7 +8,7 @@ We use LLs algorithm. LLS or linear least sqaure is a regression algorithm and i
 
 
 
-## fisrt problem:
+# fisrt problem:
 
 ### train_test_split
 
@@ -17,7 +17,7 @@ In first problem I rewrite this function in train_test_split.py file.
 I define a class which name is TTS that get X and Y and spplit them to train and test.
 you can also define the size of train and test data.
 
-## second problem:
+# second problem:
 
 ### Tehran house-prices
 
@@ -32,7 +32,7 @@ Then I get the price of 5 most expensive house in tehran.
 then I alculate the correlation matric for features and I use the features that have most correlation with price.
 And then I fit these features and the price columns to LLs algorithm as train and test respectivily. 
 
-## Third problem:
+# Third problem:
 
 ### Dollar prices
 
@@ -62,7 +62,7 @@ In each .ipynb file run each block to see the result.
 ## Results
 
 
-#### second problem:
+### second problem:
 
 The price of 5 most expensive house in tehran:
 
@@ -80,7 +80,7 @@ Results of MY_LLS model and RidgeCV and LinearRegression for tehran house price:
 |      RidgeCV     | 2904911211 | 3.0727363607843246e+19  | 5543226822 |
 | LinearRegression | 2904911211 | 3.0727363607843246e+19  | 5543226822 |
 
-#### third problem:
+### third problem:
 
 MAX dollar price:
 

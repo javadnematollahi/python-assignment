@@ -77,10 +77,12 @@ right diagram is shown loss value that is calculated in each epochs wth MAE meth
 
 learning rate Wieght= 0.0001      learning rate Bias= 0.1        epochs=4
 
+![salary4epochs](https://github.com/javad7189/python-assignment/assets/86910174/3213f015-ddcf-4fc1-b65e-84bd73bc1339)
 
 
 learning rate Wieght= 0.0001      learning rate Bias= 0.1        epochs=25
 
+![salary25epochs](https://github.com/javad7189/python-assignment/assets/86910174/2dcf5749-81ae-4261-a425-4353433d5d8f)
 
 
 #### second problem:
@@ -91,10 +93,12 @@ Right diagram is shown loss value that is claculated in each epochs wth MAE meth
 
 learning rate Wieght= 0.001      learning rate Bias= 0.1        epochs=4
 
+![abalonebeforset](https://github.com/javad7189/python-assignment/assets/86910174/07dd44f1-d233-4703-a6f8-8a72981cf7b4)
 
 
 learning rate Wieght= 0.1      learning rate Bias= 0.1        epochs=25
 
+![abaloneafterset](https://github.com/javad7189/python-assignment/assets/86910174/ef31f041-8816-41ae-ac72-ff55c4c6537a)
 
 
 #### third problem:
@@ -105,8 +109,12 @@ learning rate Wieght= 0.0001      learning rate Bias= 0.1        epochs=120
 
 I show from first step that perceptron started to run to final step that perceptron find the best plane that trough all data.
 
+![movie](https://github.com/javad7189/python-assignment/assets/86910174/ddc0a6ef-3bc9-4b92-acf5-814ba36c3cc7)
 
 
 
 another 3D animation of the best plane that perceptron could find in 120 epochs.
+
+
+![rotation](https://github.com/javad7189/python-assignment/assets/86910174/0a0e0987-4af7-40f3-bc01-843e4517cb23)
 

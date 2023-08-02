@@ -43,7 +43,7 @@ The number you entered is equal to length of fibonacci sequence.
 ## How to Run
 execute this command in terminal:
 python file_name.py
-example python calculator.py
+example python dice.py
 
 
 

@@ -51,7 +51,9 @@ pip install -r requirements.txt
 
 ## How to Run
 
-In each .ipynb file run each block to see the result. 
+run in terminal:
+
+for example: python factorial_2.py
 
 ## Results
 

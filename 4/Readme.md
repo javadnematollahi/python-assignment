@@ -55,33 +55,13 @@ In each .ipynb file run each block to see the result.
 
 ## Results
 
-The stature of women and men:
+certificate of sololearn:
+
+![5378851f-c569-48ec-972b-c2c85fbb2e13](https://github.com/javad7189/python-assignment/assets/86910174/cbf191c9-a67d-48d0-9a51-fd9fd98c5862)
 
 
 
 
-The shouldercircumference of women and men:
-this feature is good for classifying men and women.
-
-
-
-
-Below code is used for splitting data to train and test:
-
-
-
-Accuray for my knn algorithm for some K:
-
-
-Confusion matrix for myknn algorithm:
-
-
-Accuracy for two algorithm: Myknn and sklearn
-
-
-
-
-Confusion matrix for sklearn algorithm:
 
 
 

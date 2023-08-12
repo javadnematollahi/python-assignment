@@ -11,9 +11,9 @@ for updating weights.
 
 
 
-## fisrt problem:
+# fisrt problem:
 
-### Surgical 
+## Surgical 
 
 In first problem I've done a classification on surgical database with perceptron.
 perceptron algorithm is used for both classification and regression problems.
@@ -171,7 +171,7 @@ Plot confusion matric:
 ![confusion matric with piece-wise-linear](https://github.com/javad7189/python-assignment/assets/86910174/f4211949-7026-4e0e-8da9-55a62be0881b)
 
 
-#### second problem:
+# second problem:
 
 ## Table of date and temperature and day number in a year:
 

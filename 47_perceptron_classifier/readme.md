@@ -90,7 +90,7 @@ Plot confusion matric:
 
 Plot accuracy in each epoch for train and test data:
 
-![Uploading model accuracy with relu.png…]()
+![model accuracy with relu](https://github.com/javad7189/python-assignment/assets/86910174/f9b4637d-de49-459a-8eca-fb1cbb4946e0)
 
 
 Plot loss in each epoch for train and test data:

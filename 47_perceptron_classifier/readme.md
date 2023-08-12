@@ -69,7 +69,7 @@ In each .ipynb file run each block to see the result.
 
 input length= 24      learning rate w= 0.1        epochs=40
 
- activation function= sigmoid
+## activation function= sigmoid
 
 Plot accuracy in each epoch for train and test data:
 
@@ -86,7 +86,7 @@ Plot confusion matric:
 ![confusion matric with sigmoid](https://github.com/javad7189/python-assignment/assets/86910174/9f3edd6a-9d15-4a3d-bb18-8c859e56fd51)
 
 
-activation function= relu
+## activation function= relu
 
 Plot accuracy in each epoch for train and test data:
 
@@ -103,7 +103,7 @@ Plot confusion matric:
 ![confusion matric with relu](https://github.com/javad7189/python-assignment/assets/86910174/cda0ee9c-5e2a-4bd0-8016-1a6778d6b10a)
 
 
-activation function= tanh
+## activation function= tanh
 
 Plot accuracy in each epoch for train and test data:
 
@@ -120,7 +120,7 @@ Plot confusion matric:
 ![confusion matric with tanh](https://github.com/javad7189/python-assignment/assets/86910174/998770ce-f7df-4abe-a317-ddffe1d3b0e3)
 
 
-activation function= unitstep
+## activation function= unitstep
 
 Plot accuracy in each epoch for train and test data:
 
@@ -137,7 +137,7 @@ Plot confusion matric:
 ![confusion matric with unitstep](https://github.com/javad7189/python-assignment/assets/86910174/9d7b9e6d-2398-465d-b560-0779c5e8ba95)
 
 
-activation function= sign
+## activation function= sign
 
 Plot accuracy in each epoch for train and test data:
 
@@ -154,7 +154,7 @@ Plot confusion matric:
 ![confusion matric with sign](https://github.com/javad7189/python-assignment/assets/86910174/ddca88ce-6aec-4f75-ad27-1759fcb7c3b2)
 
 
-activation function= piece-wise-linear
+## activation function= piece-wise-linear
 
 Plot accuracy in each epoch for train and test data:
 
@@ -173,20 +173,20 @@ Plot confusion matric:
 
 #### second problem:
 
-Table of date and temperature and day number in a year:
+## Table of date and temperature and day number in a year:
 
 ![tablefordate_temp_dayofyear](https://github.com/javad7189/python-assignment/assets/86910174/f89d50ed-8e38-4ff5-b177-e45af1d389c5)
 
 
 
-Temperature in different days of 2006 to 2016 years:
+## Temperature in different days of 2006 to 2016 years:
 
 ![temp_in_different_days](https://github.com/javad7189/python-assignment/assets/86910174/d8d3fc43-2ddd-4f7d-b74e-047845f9942a)
 
 
 learning rate Wieght= 0.00001      learning rate Bias= 0.0001        epochs=20
 
-weights and bias and loss for training iteration:
+## weights and bias and loss for training iteration:
 
 ![W-B-L npy](https://github.com/javad7189/python-assignment/assets/86910174/edf5881a-8ff1-4aa3-bb09-5e460ffaf1c8)
 

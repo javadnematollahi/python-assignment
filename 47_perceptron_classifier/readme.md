@@ -73,102 +73,120 @@ input length= 24      learning rate w= 0.1        epochs=40
 
 Plot accuracy in each epoch for train and test data:
 
-![model accuracy with sigmoid](https://github.com/javad7189/python-assignment/assets/86910174/b36d7e74-1be8-450d-842a-319a6093a89f)
+![model accuracy with sigmoid](https://github.com/javad7189/python-assignment/assets/86910174/88a3a84d-f612-44ec-82f1-9e347f3d813f)
+
 
 
 Plot loss in each epoch for train and test data:
 
-![model loss with sigmoid](https://github.com/javad7189/python-assignment/assets/86910174/00b58e79-773d-4538-a311-9cecde5b42e0)
+![model loss with sigmoid](https://github.com/javad7189/python-assignment/assets/86910174/17f7d812-5841-401a-ad86-90d7e8c3e62d)
+
 
 
 Plot confusion matric:
 
-![confusion matric with sigmoid](https://github.com/javad7189/python-assignment/assets/86910174/9f3edd6a-9d15-4a3d-bb18-8c859e56fd51)
+![confusion matric with sigmoid](https://github.com/javad7189/python-assignment/assets/86910174/6a53a88d-9d2c-4a2c-8dd4-1fdb02252f6a)
+
 
 
 ## activation function= relu
 
 Plot accuracy in each epoch for train and test data:
 
-![model accuracy with relu](https://github.com/javad7189/python-assignment/assets/86910174/f9b4637d-de49-459a-8eca-fb1cbb4946e0)
+![model accuracy with relu](https://github.com/javad7189/python-assignment/assets/86910174/384a2ef5-1c31-40f8-b9ab-7df3ec1ee42f)
+
 
 
 Plot loss in each epoch for train and test data:
 
-![model loss with relu](https://github.com/javad7189/python-assignment/assets/86910174/bed8da8d-07c8-42a5-b12d-9be1b47b9fe7)
+![model loss with relu](https://github.com/javad7189/python-assignment/assets/86910174/45742ba3-5e8f-427c-8c2b-1afed192fbfe)
+
 
 
 Plot confusion matric:
 
-![confusion matric with relu](https://github.com/javad7189/python-assignment/assets/86910174/cda0ee9c-5e2a-4bd0-8016-1a6778d6b10a)
+![confusion matric with relu](https://github.com/javad7189/python-assignment/assets/86910174/916dc6d6-639d-4749-92b4-544f76de2e47)
+
 
 
 ## activation function= tanh
 
 Plot accuracy in each epoch for train and test data:
 
-![model accuracy with tanh](https://github.com/javad7189/python-assignment/assets/86910174/95ff6099-3b38-49e4-a293-aaa91e406658)
+![model accuracy with tanh](https://github.com/javad7189/python-assignment/assets/86910174/d59362b7-10e9-4f33-8f3a-a507e3941fdd)
+
 
 
 Plot loss in each epoch for train and test data:
 
-![model loss with tanh](https://github.com/javad7189/python-assignment/assets/86910174/80f7a859-5400-4f21-afed-5e4fff36f1dd)
+![model loss with tanh](https://github.com/javad7189/python-assignment/assets/86910174/e0764c90-0b54-4252-a3c1-56df2a312ad8)
+
 
 
 Plot confusion matric:
 
-![confusion matric with tanh](https://github.com/javad7189/python-assignment/assets/86910174/998770ce-f7df-4abe-a317-ddffe1d3b0e3)
+![confusion matric with tanh](https://github.com/javad7189/python-assignment/assets/86910174/2eef3e51-7cdd-4567-83cb-cacd70b33b36)
+
 
 
 ## activation function= unitstep
 
 Plot accuracy in each epoch for train and test data:
 
-![model accuracy with unitstep](https://github.com/javad7189/python-assignment/assets/86910174/7d2877a9-b3a8-4ea7-9b10-d34b18b77a90)
+![model accuracy with unitstep](https://github.com/javad7189/python-assignment/assets/86910174/6ab71988-958c-4ffb-9b24-3d4fe00a30ee)
+
 
 
 Plot loss in each epoch for train and test data:
 
-![model loss with unitstep](https://github.com/javad7189/python-assignment/assets/86910174/41ecacec-bbb7-4d35-b186-db414bc21689)
+![model loss with unitstep](https://github.com/javad7189/python-assignment/assets/86910174/a36f5145-b808-4165-bf3c-e7f2917bd4ec)
+
 
 
 Plot confusion matric:
 
-![confusion matric with unitstep](https://github.com/javad7189/python-assignment/assets/86910174/9d7b9e6d-2398-465d-b560-0779c5e8ba95)
+![confusion matric with unitstep](https://github.com/javad7189/python-assignment/assets/86910174/941a0188-23c1-4727-aa46-e5a216b5d867)
+
 
 
 ## activation function= sign
 
 Plot accuracy in each epoch for train and test data:
 
-![model accuracy with sign](https://github.com/javad7189/python-assignment/assets/86910174/69bdbc74-836c-4645-95f6-a9f8c84c9b18)
+![model accuracy with sign](https://github.com/javad7189/python-assignment/assets/86910174/a784439d-555d-4390-b0d7-f74825f31d14)
+
 
 
 Plot loss in each epoch for train and test data:
 
-![model loss with sign](https://github.com/javad7189/python-assignment/assets/86910174/61eb57ee-1667-4b9e-b770-b5c624462cb4)
+![model loss with sign](https://github.com/javad7189/python-assignment/assets/86910174/ce4c0303-a06e-4539-a389-64cb3eafbd27)
+
 
 
 Plot confusion matric:
 
-![confusion matric with sign](https://github.com/javad7189/python-assignment/assets/86910174/ddca88ce-6aec-4f75-ad27-1759fcb7c3b2)
+![confusion matric with sign](https://github.com/javad7189/python-assignment/assets/86910174/30acd89c-93ca-46fa-8286-8c09c72bed8f)
+
 
 
 ## activation function= piece-wise-linear
 
 Plot accuracy in each epoch for train and test data:
 
-![model accuracy with piece-wise-linear](https://github.com/javad7189/python-assignment/assets/86910174/dd157630-0fa9-48d0-97de-98f1279d27c4)
+![model accuracy with piece-wise-linear](https://github.com/javad7189/python-assignment/assets/86910174/b906baef-f41c-4b10-b5ae-49a3a5fec7e3)
+
 
 
 Plot loss in each epoch for train and test data:
 
-![model loss with piece-wise-linear](https://github.com/javad7189/python-assignment/assets/86910174/374524a4-7db8-48b5-96d8-5cb2a1dc5eb2)
+![model loss with piece-wise-linear](https://github.com/javad7189/python-assignment/assets/86910174/1fa458c2-67a3-4fc4-b882-bd0ad50616fe)
+
 
 
 Plot confusion matric:
 
-![confusion matric with piece-wise-linear](https://github.com/javad7189/python-assignment/assets/86910174/f4211949-7026-4e0e-8da9-55a62be0881b)
+![confusion matric with piece-wise-linear](https://github.com/javad7189/python-assignment/assets/86910174/bc774454-328c-4640-ad34-69c9987f52bb)
+
 
 
 # second problem:

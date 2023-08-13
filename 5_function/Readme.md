@@ -41,15 +41,22 @@ for example: python daimond.py
 
 first problem output:
 
+![chess](https://github.com/javad7189/python-assignment/assets/86910174/f37a6321-c1a5-4498-b2e9-aaef96e61d17)
+
 
 second problem output:
+
+![multiplication_table](https://github.com/javad7189/python-assignment/assets/86910174/1b79244f-18b0-44e9-98c8-b8f133647cdf)
 
 
 third problem output:
 
+![daimond](https://github.com/javad7189/python-assignment/assets/86910174/a5a22248-31fc-44ec-ab7e-3e2d297835a5)
+
 
 fourth problem output:
 
+![khayyam_paskal](https://github.com/javad7189/python-assignment/assets/86910174/0435780a-22f2-4720-bd30-cf4f87252c67)
 
 
 

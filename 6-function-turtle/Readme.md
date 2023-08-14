@@ -50,9 +50,17 @@ for example: python TicTacToe.py
 tictactoe output:
 
 
+![tictactoe](https://github.com/javad7189/python-assignment/assets/86910174/285d6645-3a40-4595-8803-b47cbb7e422a)
 
 
 turtle output:
+
+
+
+
+https://github.com/javad7189/python-assignment/assets/86910174/ddb2d455-9d6e-4eac-a5c3-e26e29f57352
+
+
 
 
 

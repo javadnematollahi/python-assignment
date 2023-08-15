@@ -39,6 +39,7 @@ for example: python translate.py
 
 gif output:
 
+![my_output](https://github.com/javad7189/python-assignment/assets/86910174/f0ee2af8-c8bf-40a5-bf6a-fbb0dc245859)
 
 
 

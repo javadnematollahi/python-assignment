@@ -25,6 +25,7 @@ In each .ipynb file run each block to see the result.
 
 ## Results
 
+![resultfor_piece_wise_lineaar](https://github.com/javad7189/python-assignment/assets/86910174/07d5d945-9bf6-4f91-a2d8-204d471c9ec6)
 
 
 

@@ -48,16 +48,22 @@ In each .ipynb file run each block to see the result.
 
 Compare the result of onehotencoder and onehotdecoder functions:
 
+![onehotencoder_compare](https://github.com/javad7189/python-assignment/assets/86910174/bafcd45f-c8a0-4675-a101-0fdbf4d3d822)
 
 
 MLP predict of handwriting numbers :
 
+![handwriting_numbers_test](https://github.com/javad7189/python-assignment/assets/86910174/db5b1a85-328f-4ef0-8dcb-3cfdde2c3119)
+
 
 Loss and Accuracy of train and test data:
+
+![loss_accuracy_test_train](https://github.com/javad7189/python-assignment/assets/86910174/faf53d92-af63-46dc-b3a5-19d13280fd77)
 
 
 Loss and Accuracy of train data for all epochs in training phase:
 
+![loss_and_accuracy](https://github.com/javad7189/python-assignment/assets/86910174/e5ddf86a-fb71-4f77-a6cb-54bf95c9653a)
 
 
 

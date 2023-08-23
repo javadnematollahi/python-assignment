@@ -19,6 +19,9 @@ If someone hack your token, you can get another token for your bot to solve the 
 
 Feature of my bot:
 
+you can enter my bot with below username:
+@NEW_pylearn_bot
+
 My bot has below command:
 
 /start

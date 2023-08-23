@@ -1,0 +1,4 @@
+telebot
+gtts
+jdatetime
+qrcode

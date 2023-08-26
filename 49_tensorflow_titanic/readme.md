@@ -1,5 +1,5 @@
 
-# Machine learning 13_ MLP or Multi Layer Perceptron
+# Machine learning 13_ MLP with Tensorflow
 
 ## In this project I Use Tensorflow library to make a model for titanic dataset.
 
@@ -51,8 +51,16 @@ In each .ipynb file run each block to see the result.
 
 Accuracy and loss of training data:
 
+![train_acc](https://github.com/javad7189/python-assignment/assets/86910174/c25c2c24-57f1-4138-877f-83b3f5ed3ede)
+
+![train loss](https://github.com/javad7189/python-assignment/assets/86910174/055d5407-5fc9-4b33-8fb1-08246154bd81)
+
 
 accuracy and loss of test data:
+
+![test](https://github.com/javad7189/python-assignment/assets/86910174/13d6c7ca-a1a0-4c9f-8dfb-360701e8935a)
+
+
 
 
 

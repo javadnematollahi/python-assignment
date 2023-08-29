@@ -1,8 +1,9 @@
 
 # Machine learning 14_ MLP or Multi Layer Perceptron for Regression
 
+## In this assignment I've done machine learning course in sololearn and I get its certificate.
+
 ## In this project I Use Tensorflow library to make a Regression model for two below dataset.
-## I also do machine learning course in sololearn and I get its certificate.
 
 Weather dataset   
 House Price dataset

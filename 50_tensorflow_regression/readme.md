@@ -99,33 +99,42 @@ In each .ipynb file run each block to see the result.
 ### Result of weather prediction:
 
 
-Accuracy and loss of training data:
+Loss of training data:
+
+![lossoftraindataForweather](https://github.com/javad7189/python-assignment/assets/86910174/2fe6a037-1bb8-4289-bfad-1aea42da5c32)
 
 
-accuracy and loss of test data:
+Loss of test data:
 
+![lossofvalidationdata](https://github.com/javad7189/python-assignment/assets/86910174/93928383-66e4-4832-8d13-a930833e2fa0)
 
 
 compare MLP and perceptron of assignment 47:
 
+![output](https://github.com/javad7189/python-assignment/assets/86910174/36f219a4-f9af-4754-8bbb-19c974ff04c8)
 
 
 ### Result of House Price prediction:
 
 
-Accuracy and loss of training data:
+Loss of training data:
+
+![lossFortraindata](https://github.com/javad7189/python-assignment/assets/86910174/4ada4c3e-2cc3-47b5-b575-8b1c84a62db2)
 
 
-accuracy and loss of test data:
+Loss of test data:
 
+![lossofvalidationdata](https://github.com/javad7189/python-assignment/assets/86910174/c7f714c9-4ebc-43fe-a6e7-e5691a5e28c1)
 
 
 Price of a house with my house specifications:
 
+![priceofmyhouse](https://github.com/javad7189/python-assignment/assets/86910174/b037ec57-ad5e-44e2-9832-ea7621c495f1)
 
 
 submission result:
 
+![housepricesubmission](https://github.com/javad7189/python-assignment/assets/86910174/3d4a9bc8-09b7-4e9f-bc23-26913bd91f13)
 
 
 
@@ -135,10 +144,11 @@ submission result:
 
 link of certificate:
 
-
+https://api2.sololearn.com/v2/certificates/CC-PYPDAQ1F/image/png
 
 
 certificate:
 
+![Machine_learning_certificate](https://github.com/javad7189/python-assignment/assets/86910174/f241bce2-7730-4499-bc8e-8b2e9852b3a2)
 
 

@@ -25,7 +25,7 @@ I've done some step to achieve end goal.
   These informations include below features that I use them in my MLP algorithm in next step to train my model:
     
     |    Name of feature         |       description of feature     |
-    | ------------------------ | ------------------------------ |
+    | --- | --- |
     |    "last_up"               |  if last direction of snake moving is up, this parameter will be 1 otherwise will be 0  |
     |    "last_down"             |  if last direction of snake moving is down, this parameter will be 1 otherwise will be 0  |
     |    "last_right"            |  if last direction of snake moving is right, this parameter will be 1 otherwise will be 0  |

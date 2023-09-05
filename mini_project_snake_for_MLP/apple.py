@@ -14,13 +14,13 @@ class Fruit(arcade.Sprite):
 
 class Poo(Fruit):
     def __init__(self, game):
-        super().__init__(game,'poo.png')
+        super().__init__(game,'assets/poo.png')
 
 class Pear(Fruit):
     def __init__(self, game):
-        super().__init__(game,'pear.png')
+        super().__init__(game,'assets/pear.png')
 
 
 class Apple(Fruit):
     def __init__(self, game):
-        super().__init__(game,'apple.png')
+        super().__init__(game,'assets/apple.png')

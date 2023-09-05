@@ -329,9 +329,9 @@ class Game(arcade.Window):
                 self.snake.change_y=0
         elif symbol== arcade.key.Q:
             df_input=pd.DataFrame(self.eat.data.list_input)
-            df_input.to_csv('input_data.csv' ,mode='a', index=False, header=False)
+            df_input.to_csv('dataset/input_data.csv' ,mode='a', index=False, header=False)
             df_output=pd.DataFrame(self.eat.data.list_output)
-            df_output.to_csv('output_data.csv', mode='a', index=False, header=False)
+            df_output.to_csv('dataset/output_data.csv', mode='a', index=False, header=False)
             arcade.close_window()
             arcade.exit()
 

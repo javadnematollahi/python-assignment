@@ -153,7 +153,7 @@ class Game(arcade.Window):
         self.poo=Poo(self)
         self.snake=Snake(self)
         self.eat=Eatfood(self)
-        self.model= tf.keras.models.load_model("MLP_FOR_Snake.h5")
+        self.model= tf.keras.models.load_model("weights/MLP_FOR_Snake.h5")
 
         self.gameover_outfit=0
         self.gameover_collision=0

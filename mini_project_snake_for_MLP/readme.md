@@ -95,7 +95,8 @@ I've done some step to achieve end goal.
 
  loss and accuracy of train and test data:
 
-![loss_accuracytrain](https://github.com/javad7189/python-assignment/assets/86910174/593bc1cf-9f60-45b1-9500-1f3611566723)
+![loss_accuracytrain](https://github.com/javad7189/python-assignment/assets/86910174/28d5ae13-cede-4305-8b3f-0499de10f5a9)
+
 
 
  4. In this step I copied my snake game code in a new .py file and make some changes in it. In fact I calculate features that I used them for training model and then I load my saved model which name was "MLP_FOR_Snake.h5" and I use the calculated features as inputs of model. The model use features and predict the direction moving of snake.

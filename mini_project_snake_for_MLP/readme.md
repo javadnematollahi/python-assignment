@@ -24,38 +24,38 @@ I've done some step to achieve end goal.
   I also add a few lines of code to store some informations in a .csv file. 
   These informations include below features that I use them in my MLP algorithm in next step to train my model:
     
-    |    Name of feature         |       description of feature     |
-    | :------------------------: | :------------------------------: |
-    |    "last_up"               |  if last direction of snake moving is up, this parameter will be 1 otherwise will be 0  |
-    |    "last_down"             |  if last direction of snake moving is down, this parameter will be 1 otherwise will be 0  |
-    |    "last_right"            |  if last direction of snake moving is right, this parameter will be 1 otherwise will be 0  |
-    |    "last_left"             |  if last direction of snake moving is left, this parameter will be 1 otherwise will be 0  |
-    |    "food_up"               |  If the pear is on the top side of the snake, this parameter will be 1 otherwise will be 0 |
-    |   "food_down"              |  If the pear is on the down side of the snake, this parameter will be 1 otherwise will be 0|
-    |    "food_left"             |  If the pear is on the left side of the snake, this parameter will be 1 otherwise will be 0|
-    |    "food_right"            |  If the pear is on the right side of the snake, this parameter will be 1 otherwise will be 0|
-    |    "dist_x_to_body"        |  This parameter is the distance of snake head to part of its body if that part is on the top or down side of the snake head |
-    |    "dist_y_to_body"        | This parameter is the distance of snake head to part of its body if that part is on the right or left side of the snake head |
-    |    "dist_to_top_wall"      |  distance of snake head to top wall of game |
-    |    "dist_to_down_wall"     |  distance of snake head to down wall of game |
-    |    "dist_to_left_wall"     |  distance of snake head to left wall of game |
-    |    "dist_to_right_wall"    |  distance of snake head to right wall of game |
-    |    "Pear_center_x"         |  Location X of the center of the pear |
-    |    "Pear_center_y"         |  Location Y of the center of the pear |
-    |    "Pear_to_top"           | distance of pear to top wall of game |
-    |    "Pear_to_bottom"        | distance of pear to bottom wall of game |
-    |    "Pear_to_right"         | distance of pear to right wall of game |
-    |    "Pear_to_left"          | distance of pear to left wall of game |
+ |    Name of feature         |       description of feature     |
+ | :------------------------: | :------------------------------: |
+ |    "last_up"               |  if last direction of snake moving is up, this parameter will be 1 otherwise will be 0  |
+ |    "last_down"             |  if last direction of snake moving is down, this parameter will be 1 otherwise will be 0  |
+ |    "last_right"            |  if last direction of snake moving is right, this parameter will be 1 otherwise will be 0  |
+ |    "last_left"             |  if last direction of snake moving is left, this parameter will be 1 otherwise will be 0  |
+ |    "food_up"               |  If the pear is on the top side of the snake, this parameter will be 1 otherwise will be 0 |
+ |   "food_down"              |  If the pear is on the down side of the snake, this parameter will be 1 otherwise will be 0|
+ |    "food_left"             |  If the pear is on the left side of the snake, this parameter will be 1 otherwise will be 0|
+ |    "food_right"            |  If the pear is on the right side of the snake, this parameter will be 1 otherwise will be 0|
+ |    "dist_x_to_body"        |  This parameter is the distance of snake head to part of its body if that part is on the top or down side of the snake head |
+ |    "dist_y_to_body"        | This parameter is the distance of snake head to part of its body if that part is on the right or left side of the snake head |
+ |    "dist_to_top_wall"      |  distance of snake head to top wall of game |
+ |    "dist_to_down_wall"     |  distance of snake head to down wall of game |
+ |    "dist_to_left_wall"     |  distance of snake head to left wall of game |
+ |    "dist_to_right_wall"    |  distance of snake head to right wall of game |
+ |    "Pear_center_x"         |  Location X of the center of the pear |
+ |    "Pear_center_y"         |  Location Y of the center of the pear |
+ |    "Pear_to_top"           | distance of pear to top wall of game |
+ |    "Pear_to_bottom"        | distance of pear to bottom wall of game |
+ |    "Pear_to_right"         | distance of pear to right wall of game |
+ |    "Pear_to_left"          | distance of pear to left wall of game |
 
   Top features that I collected are inputs of MLP model. I must collect labels to able to train and test MLP model. 
   Labels that I collected are:
 
-    |    Name of label         |       description of label     |
-    | :------------------------: | :------------------------------: |
-    |    "next_up"               |  if direction of snake moving is up, this parameter will be 1 otherwise will be 0  |
-    |    "next_down"             |  if direction of snake moving is down, this parameter will be 1 otherwise will be 0  |
-    |    "next_right"            |  if direction of snake moving is right, this parameter will be 1 otherwise will be 0  |
-    |    "next_left"             |  if direction of snake moving is left, this parameter will be 1 otherwise will be 0  |
+ |    Name of label         |       description of label     |
+ | :------------------------: | :------------------------------: |
+ |    "next_up"               |  if direction of snake moving is up, this parameter will be 1 otherwise will be 0  |
+ |    "next_down"             |  if direction of snake moving is down, this parameter will be 1 otherwise will be 0  |
+ |    "next_right"            |  if direction of snake moving is right, this parameter will be 1 otherwise will be 0  |
+ |    "next_left"             |  if direction of snake moving is left, this parameter will be 1 otherwise will be 0  |
 
    Features are saved in input_data.csv file and Labels are saved in output_data.csv file. 
 
@@ -86,13 +86,19 @@ I've done some step to achieve end goal.
 
  loss and accuracy of train data:
 
+![loss_accuracy_train](https://github.com/javad7189/python-assignment/assets/86910174/86670d9b-c883-4295-b3c5-f60f38caeced)
+
 
  loss and accuracy of train and test data:
+
+![loss_accuracytrain](https://github.com/javad7189/python-assignment/assets/86910174/e6f9dd74-ef30-4e6e-a18f-64700452fda0)
+
 
  4. In this step I copied my snake game code in a new .py file and make some changes in it. In fact I calculate features that I used them for training model and then I load my saved model which name was "MLP_FOR_Snake.h5" and I use the calculated features as inputs of model. The model use features and predict the direction moving of snake.
 
   You can see A view of the game in below:
 
+![GAME_VIEW](https://github.com/javad7189/python-assignment/assets/86910174/685a88d3-e6c9-45ed-bbfe-b37c27a1c230)
 
 
     I should mentioned that if you run MLP_snake, each time you run, snake get different score. When I was testing it sometimes snake could get 80 to 90 score and sometimes snake could just get 10 score. But most of the time snake can get more than 30 scores.  
@@ -110,10 +116,11 @@ you can type below command in terminal to run this file:
 python main_ai.py
 
 
-### Create and training model:   trainmlp.ipynb
+### Create and training model:   train.py
 
 Run each part of this file to see the result.
 
+python train.py
 
 ### Use MLP for snake game:      MLP_snake.py
 
@@ -121,13 +128,11 @@ you can type below command in terminal to run this file:
 
 python MLP_snake.py
 
-<<<<<<< HEAD
-=======
+
 ### play snake with keyborad keys:
 
 main.py
 
->>>>>>> a2185e8aecd616e11bf04562a021f6592810fe90
 
 
 

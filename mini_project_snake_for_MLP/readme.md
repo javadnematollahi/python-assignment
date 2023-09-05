@@ -127,7 +127,13 @@ you can type below command in terminal to run this file:
 
 python train.py
 
-In this file our model is created and trained.
+Run each part of this file to see the result.
+There are 4 code box in trainmlp.ipynb file. 
+You should run these code boxes from top to bottom respectivily.
+Run first box to add necessary libraries.
+Run second code box to import dataset and labels.
+Run third code box to split features and labels to train and test data.
+Run fourth code box for creating model and then training model and evaluate model on test data. 
 
 
 ### Use MLP for snake game:      MLP_snake.py

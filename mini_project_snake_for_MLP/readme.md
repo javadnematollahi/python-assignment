@@ -78,11 +78,15 @@ I've done some step to achieve end goal.
    * activation function of output layer:   softmax
    * optimizer:     AdamW
    * learning rate: 0.0001
-   * loss function:   mean_squared_error
+   * loss function:   binary_crossentropy
    * epochs number:      2000
 
-  My MLP model can achieve 98% accuracy for train data and 96% accuracy for test data. Finally I save my trained model and named it "MLP_FOR_Snake.h5".
+  My MLP model can achieve 98% accuracy for train data and 97% accuracy for test data. Finally I save my trained model and named it "MLP_FOR_Snake.h5".
  
+ |             |        LOSS       |     Accuracy    |
+ | ------------| ------------------|-----------------|
+ |    "Train"  |       0.0295      |      0.9822     |
+ |    "Test"   |       0.0541      |      0.9721     |
 
  loss and accuracy of train data:
 

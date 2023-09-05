@@ -121,6 +121,13 @@ you can type below command in terminal to run this file:
 
 python MLP_snake.py
 
+<<<<<<< HEAD
+=======
+### play snake with keyborad keys:
+
+main.py
+
+>>>>>>> a2185e8aecd616e11bf04562a021f6592810fe90
 
 
 

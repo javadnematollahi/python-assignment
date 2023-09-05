@@ -81,9 +81,13 @@ I've done some step to achieve end goal.
    * loss function:   mean_squared_error
    * epochs number:      2000
 
-  My MLP model can achieve 98% accuracy for train data and 96% accuracy for test data. Finally I save my trained model and named it "MLP_FOR_Snake.h5".
+  My MLP model can achieve 98% accuracy for train data and 97% accuracy for test data. Finally I save my trained model and named it "MLP_FOR_Snake.h5".
  
-
+ |           |       Loss     |        accuracy     |
+ |---------: | :----------------: |:----------------: |
+ |    Train            |       0.0283            |        0.9808           |
+ |    Test            |        0.0555           |        0.9700           |
+ 
  loss and accuracy of train data:
 
 ![loss_accuracy_train](https://github.com/javad7189/python-assignment/assets/86910174/86670d9b-c883-4295-b3c5-f60f38caeced)

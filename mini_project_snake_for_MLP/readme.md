@@ -109,7 +109,7 @@ I've done some step to achieve end goal.
 
 ## How to install
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ##  How to run
 
@@ -117,25 +117,25 @@ pip install -r requirements.txt
 
 you can type below command in terminal to run this file:    
 
-python main_ai.py
+```python main_ai.py```
 
 
 ### Create and training model:   train.py
 
 Run each part of this file to see the result.
 
-python train.py
+```python train.py```
 
 ### Use MLP for snake game:      MLP_snake.py
 
 you can type below command in terminal to run this file:    
 
-python MLP_snake.py
+```python MLP_snake.py```
 
 
 ### play snake with keyborad keys:
 
-main.py
+```python main.py```
 
 
 

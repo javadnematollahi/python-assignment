@@ -13,7 +13,7 @@ I've done some step to achieve end goal.
 1. At first I write a code for snake game with Arcade library. I've written this code in assignment 15 so I used that code in this mini project. 
    The snake of this game has one part in first and as you eat pears that appear in game, the part of the snake body is increased. This game need a human player to move the snake in game. player can use Right and Left and Up and Down key on keyboard to move the snake. 
 
-   This version of snake game is written in main.py file.
+   This version of snake game is written in ```main.py``` file.
 
 2. Then I add a few lines of code to my first code to make the snake “smart”. In fact in this version of game the snake can move by itself and eat pears that appear in the game. The part of code that make my snake smart is Eatfood class that has a lot of conditions for snake moving. 
   These conditions include below rules:

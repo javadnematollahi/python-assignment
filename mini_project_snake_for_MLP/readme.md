@@ -21,7 +21,7 @@ I've done some step to achieve end goal.
   b. snake must be careful not to hit to right, left,top and down walls in the game.
   c. snake must be careful not to hit to part of its body.
 
-  I also add a few lines of code to store some informations in a .csv file. 
+  I also add a few lines of code to store some informations in a ```.csv``` file. 
   These informations include below features that I use them in my MLP algorithm in next step to train my model:
     
  |    Name of feature         |       description of feature     |
@@ -57,13 +57,13 @@ I've done some step to achieve end goal.
  |    "next_right"            |  if direction of snake moving is right, this parameter will be 1 otherwise will be 0  |
  |    "next_left"             |  if direction of snake moving is left, this parameter will be 1 otherwise will be 0  |
 
-   Features are saved in input_data.csv file and Labels are saved in output_data.csv file. 
+   Features are saved in ```input_data.csv``` file and Labels are saved in ```output_data.csv``` file. 
 
 3. In this step I write a MLP model for my snake game that use some of top features and define the direction of snake moving. 
 
     I try different combination of top features for training model to define best features for training to get maximum accuracy and reduce the amount of calculations. As a result I removed below features from top features:
 
-    "last_up", "last_down", "last_right",  "last_left"
+    ```"last_up", "last_down", "last_right",  "last_left"```
 
    The specifications of my model are:
 
@@ -73,15 +73,15 @@ I've done some step to achieve end goal.
    * Neuron number of second hidden layer: 64
    * Neuron number of third hidden layer: 48
    * Neuron number of output layer: 4
-   * activation function of fisrt three layers:   relu
-   * activation function of third hidden layer:   sigmoid
-   * activation function of output layer:   softmax
-   * optimizer:     AdamW
+   * activation function of fisrt three layers:   ```relu```
+   * activation function of third hidden layer:   ```sigmoid```
+   * activation function of output layer:   ```softmax```
+   * optimizer:     ```AdamW```
    * learning rate: 0.0001
-   * loss function:   mean_squared_error
+   * loss function:   ```mean_squared_error```
    * epochs number:      2000
 
-  My MLP model can achieve 98% accuracy for train data and 97% accuracy for test data. Finally I save my trained model and named it "MLP_FOR_Snake.h5".
+  My MLP model can achieve 98% accuracy for train data and 97% accuracy for test data. Finally I save my trained model and named it ```MLP_FOR_Snake.h5```.
  
  |           |       Loss     |        accuracy     |
  |---------: | :----------------: |:----------------: |
@@ -98,14 +98,14 @@ I've done some step to achieve end goal.
 ![loss_accuracytrain](https://github.com/javad7189/python-assignment/assets/86910174/e6f9dd74-ef30-4e6e-a18f-64700452fda0)
 
 
- 4. In this step I copied my snake game code in a new .py file and make some changes in it. In fact I calculate features that I used them for training model and then I load my saved model which name was "MLP_FOR_Snake.h5" and I use the calculated features as inputs of model. The model use features and predict the direction moving of snake.
+ 4. In this step I copied my snake game code in a new ```.py``` file and make some changes in it. In fact I calculate features that I used them for training model and then I load my saved model which name was ```MLP_FOR_Snake.h5``` and I use the calculated features as inputs of model. The model use features and predict the direction moving of snake.
 
   You can see A view of the game in below:
 
 ![GAME_VIEW](https://github.com/javad7189/python-assignment/assets/86910174/685a88d3-e6c9-45ed-bbfe-b37c27a1c230)
 
 
-    I should mentioned that if you run MLP_snake, each time you run, snake get different score. When I was testing it sometimes snake could get 80 to 90 score and sometimes snake could just get 10 score. But most of the time snake can get more than 30 scores.  
+    I should mentioned that if you run ```MLP_snake```, each time you run, snake get different score. When I was testing it sometimes snake could get 80 to 90 score and sometimes snake could just get 10 score. But most of the time snake can get more than 30 scores.  
 
 ## How to install
 

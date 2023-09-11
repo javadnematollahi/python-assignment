@@ -90,7 +90,7 @@ I've done some step to achieve end goal.
 ![GAME_VIEW](https://github.com/javad7189/python-assignment/assets/86910174/685a88d3-e6c9-45ed-bbfe-b37c27a1c230)
 
 
-    I should mentioned that if you run ```MLP_snake```, each time you run, snake get different score. When I was testing it sometimes snake could get 80 to 90 score and sometimes snake could just get 10 score. But most of the time snake can get more than 30 scores.  
+ I should mentioned that if you run ```MLP_snake```, each time you run, snake get different score. When I was testing it sometimes snake could get 80 to 90 score and sometimes snake could just get 10 score. But most of the time snake can get more than 30 scores.  
 
 ## How to install
 

@@ -20,6 +20,8 @@ a,b,_=mask.shape
 
 mask1=cv2.multiply(mask,floor2)
 
+cv2.imshow("",mask1)
+cv2.waitKey()
 
 for i in range(a):
     for j in range(b):
@@ -47,8 +49,8 @@ for i in range(a):
         for k in range(3):
             if mask2[i,j,k]!=0:
                 mask2[i,j]=255
-cv2.imshow("",mask2)
-cv2.waitKey()  
+# cv2.imshow("",mask2)
+# cv2.waitKey()  
 
 mask2=mask2/255
 mask2=mask2.astype(np.uint8)
@@ -56,7 +58,7 @@ other_extracted=cv2.multiply(mask2,floor1)
 
 final=other_extracted+ground_extract
 other_extracted=cv2.resize(final,[800,800])
-cv2.imwrite("output/masking_picture.jpg",final)
+# cv2.imwrite("output/masking_picture.jpg",final)
 
-cv2.imshow("",other_extracted)
-cv2.waitKey()
+# cv2.imshow("",other_extracted)
+# cv2.waitKey()

@@ -9,7 +9,7 @@ cap = cv2.VideoCapture('input/cars.mp4')
  
  
 totalFrames = cap.get(cv2.CAP_PROP_FRAME_COUNT)
-
+print(totalFrames)
 frames = []
 count_frame=0
 while True:
@@ -18,9 +18,9 @@ while True:
     success, frame = cap.read()
     if success:
         count_frame+=1
-        print(count_frame)
+        # print(count_frame)
         frames.append(frame)
-    if count_frame==20:
+    if count_frame==30:
         break
  
 medianFrame = np.median(frames, axis=0).astype(dtype=np.uint8)  

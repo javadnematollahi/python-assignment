@@ -1,0 +1,6 @@
+tensorflow
+pandas
+matplotlib.pyplot
+deepface
+sklearn
+numpy

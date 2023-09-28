@@ -12,8 +12,13 @@ pip install -r requirements.txt
 
 ## How to Run
 execute this command in terminal:
+
 python file_name.py
-example python question2.py
+
+example
+```
+python question2.py
+```
 
 ## Results
 
@@ -43,9 +48,9 @@ output:
 ![boundrect](https://github.com/javad7189/python-assignment/assets/86910174/ec2b8393-2018-4f03-baac-d0b791b8dcaa)
 
 
-In fourth question I wrote cv2.contourArea() function from scratch. i compare the result of opencv function and my function. I use to different idea to solve this problem and the resulte of both idea are almost close to opencv 
+In fourth question I wrote cv2.contourArea() function from scratch. i compare the result of opencv function and my function. I use two different idea to solve this problem and the result of both idea are almost close to opencv 
 result. the code of this part is written in question4.py and question4_1.py files.
-The below picture you can see the results.
+In the below pictures you can see the results.
 
 output:
 
@@ -53,9 +58,9 @@ output:
 ![contour_area4_1](https://github.com/javad7189/python-assignment/assets/86910174/e34d43ff-a397-445e-937b-6fc0d10fe5c6)
 
 
-In the fifth question i wrote cv2.findContours() function from scratch. for this question i use povlidis algorithm
+In the fifth question I wrote cv2.findContours() function from scratch. for this question I use povlidis algorithm
 to find the contours in the picture.
-In this question i really close to opencv answers. 
+In this question I really close to opencv answers. 
 
 to get more information about this algorithm follow below link:
 https://www.imageprocessingplace.com/downloads_V3/root_downloads/tutorials/contour_tracing_Abeer_George_Ghuneim/theo.html
@@ -68,11 +73,11 @@ output:
 ![Our_contours](https://github.com/javad7189/python-assignment/assets/86910174/9cfa82ab-5cd7-4854-932f-e49e4e02783c)
 
 
-In the sixth question i made a funny webcam video. In this video i try to put part of my face include lips and noise
+In the sixth question I made a funny webcam video. In this video I try to put part of my face include lips and noise
 instead of part of faces that belong to men or womens are painted.
 
-lets see the result. i try to do my best :)
-if below video does not play, then you can find this file in output folder which its name is "javad.mp4"
+lets see the result. I try to do my best :)
+If below video does not play, then you can find this file in output folder which its name is "javad.mp4"
 
 output:
 

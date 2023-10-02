@@ -23,20 +23,8 @@ I've done some step to achieve end goal.
  
  |           |       Loss     |        accuracy     |
  |---------: | :----------------: |:----------------: |
-<<<<<<< HEAD
  |    Train            |       0.0117            |        0.9305          |
  |    Test            |        0.0340           |        0.8324           |
-   
-=======
- |    Train            |       0.0012            |        0.9981           |
- |    Test            |        0.0524           |        0.8208           |
- 
-I made two file, one for use in google colab and other for using in local system. Both of these files do same work and you can use one of them base on system you run code on it.
-
-Use ```Guys_dataset_colab.ipynb``` file in google colab.
-
-Use ```Guys_dataset_local.ipynb``` file in system.    
->>>>>>> d994fd10a30de39bdb24c3c4c188c6f296184754
 
 ## How to install
 

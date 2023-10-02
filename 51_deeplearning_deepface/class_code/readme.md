@@ -13,8 +13,8 @@ use the value of pixels as input of MLP.
 
 |           |       Loss     |        accuracy     |
 |---------: | :----------------: |:----------------: |
-|    Train            |       0.0794            |        0.9758           |
-|    Test            |        0.07936           |        0.9757           |   
+|    Train            |       0.0765            |        0.9755          |
+|    Test            |        0.0723           |        0.9786           |   
 
 2. fashion mnist
 
@@ -45,5 +45,19 @@ pip install -r requirements.txt
 
 ##  How to run
 
-Run each cell from top to bottom.
+1. To see the result for mnist dataset run below command in terminal:
 
+```
+python MLP_for_mnist.py
+```
+2. To see the result for fashion_mnist dataset run below command in terminal:
+
+```
+python MLP_for_fashion_mnist.py
+```
+
+3. To see the result for cifar10 dataset run below command in terminal:
+
+```
+python MLP_for_cifar10.py
+```

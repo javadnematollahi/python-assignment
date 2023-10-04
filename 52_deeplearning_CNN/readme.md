@@ -52,8 +52,9 @@ These dataset's names are mnist, fashion mnist, cifar10 and cifar100.
 |    Test(MLP)            |        3.4148           |        0.1973           |
 |    Train(CNN+MLP)           |       2.2498            |        0.4037           |
 |    Test(CNN+MLP)           |        2.6611           |        0.3421           |
+
  
-I compare the accuracy results of two models for four daasets in below table:
+## I compare the accuracy results of two models for four daasets in below table:
 
 |                    |       MLP     |        CNN+MLP    |
 |-------------------:| :-----------: |:----------------: |
@@ -104,6 +105,7 @@ To see the CNN+MLP result for cifar10 dataset run below command in terminal:
 
 ```
 python CNN_MLP_for_cifar10.py
+```
 
 4. To see the MLP result for cifar100 dataset run below command in terminal:
 

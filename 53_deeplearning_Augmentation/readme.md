@@ -21,6 +21,9 @@ Results of my model is shown in below table::
 
 Confusion Matric :
 
+![confusionmatric_animal](https://github.com/javadnematollahi/python-assignment/assets/86910174/7bfe6428-c078-4935-8c06-b316a92a101c)
+
+
 2. The name of other python file is `animal_predict.py` and is written for predicting some test pictures which are in test folder.
 
 ### Flowers Dataset:
@@ -38,6 +41,8 @@ Results of flower.h5 model is shown in below table::
 
 Confusion Matric for flower.h5 model:
 
+![confusionmatric_flower](https://github.com/javadnematollahi/python-assignment/assets/86910174/18952edb-256d-4012-aefe-169403df172a)
+
 
 B.   The file which name is `flower_classify_Aug.py` is made for creating train and validation data and making model. Furtermore I use Augmentation technique in this file to prevent overfitting. The created model is saved in weights folder and it name is `flower_aug.h5`. 
 
@@ -50,6 +55,7 @@ Results of flower_aug.h5 model is shown in below table::
 
 Confusion Matric for flower_aug.h5 model :
 
+![confusionmatric_floweraug](https://github.com/javadnematollahi/python-assignment/assets/86910174/408cf54f-3509-43ce-8fe2-f5ab0a542e6f)
 
 
 C.   The file which name is `telegrambot_classification.py` is made for creating a telegram bot. You can access this telegram bot with this name:

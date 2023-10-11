@@ -15,6 +15,10 @@ Augmentation is about increasing primary dataset with some techniques.
 2. You can download the created model from below link:
 
  https://drive.google.com/file/d/1PBpGmPeWEVeRv1xmueKpIDyehaJY8cv-/view?usp=drive_link
+ 
+3. You can access animal dataset from below link:
+
+https://drive.google.com/drive/folders/1wBUlG3P8YBiB17aUo3O6byzO0DJLcsaS?usp=drive_link
 
 Results of my model is shown in below table::
  
@@ -39,7 +43,11 @@ A.   The file which name is `flower_classify.py` is made for creating train and 
  You can download the created model from below link:
 
  https://drive.google.com/file/d/1C14WJQbNA83BBSB8lGkgqS9mwlsld4Vr/view?usp=drive_link
- 
+
+You can access flower dataset from below link:
+
+https://drive.google.com/drive/folders/1GAFDuS9dcBxYi4MlMwpHUW5Z50Q01k3y
+
 Results of flower.h5 model is shown in below table::
  
  |               |       Loss     |      accuracy    |

@@ -10,7 +10,11 @@ Augmentation is about increasing primary dataset with some techniques.
 
 ### Animals Dataset:
 
-1. There are two python file in animals folder. The file which name is `Animals_CNN_Augmentation.py` is made for creating train and validation data and making model. The created model is saved in weights folder. 
+1. There are two python file in animals folder. The file which name is `Animals_CNN_Augmentation.py` is made for creating train and validation data and making model.
+
+2. You can download the created model from below link:
+
+ https://drive.google.com/file/d/1PBpGmPeWEVeRv1xmueKpIDyehaJY8cv-/view?usp=drive_link
 
 Results of my model is shown in below table::
  
@@ -30,8 +34,12 @@ Confusion Matric :
 
    There are three python file in flowers folder. 
 
-A.   The file which name is `flower_classify.py` is made for creating train and validation data and making model. The created model is saved in weights folder and it name is `flower.h5`. 
+A.   The file which name is `flower_classify.py` is made for creating train and validation data and making model. The created model is saved as `flower.h5`. 
 
+ You can download the created model from below link:
+
+ https://drive.google.com/file/d/1C14WJQbNA83BBSB8lGkgqS9mwlsld4Vr/view?usp=drive_link
+ 
 Results of flower.h5 model is shown in below table::
  
  |               |       Loss     |      accuracy    |
@@ -44,7 +52,11 @@ Confusion Matric for flower.h5 model:
 ![confusionmatric_flower](https://github.com/javadnematollahi/python-assignment/assets/86910174/18952edb-256d-4012-aefe-169403df172a)
 
 
-B.   The file which name is `flower_classify_Aug.py` is made for creating train and validation data and making model. Furtermore I use Augmentation technique in this file to prevent overfitting. The created model is saved in weights folder and it name is `flower_aug.h5`. 
+B.   The file which name is `flower_classify_Aug.py` is made for creating train and validation data and making model. Furtermore I use Augmentation technique in this file to prevent overfitting. The created model is saved as `flower_aug.h5`. 
+
+ You can download the created model from below link:
+
+ https://drive.google.com/file/d/1iU7IWD1vpGw3xW_hfRtRtxxVxTjsUNx-/view?usp=drive_link
 
 Results of flower_aug.h5 model is shown in below table::
  

@@ -1,3 +1,4 @@
+import os,base64,requests
 import telebot
 from telebot import types
 import tensorflow as tf
@@ -11,9 +12,13 @@ import gtts
 import string
 import qrcode 
 
+TOKEN = os.environ["my_token"]
 
+auth_header_encoded = base64.b64encode(f"{TOKEN}".encode("ascii"))
+auth_header = f"Basic {auth_header_encoded.decode('ascii')}"
 
-token='6034119395:AAFIyOUu5shlhmeXKhEy11L3l3xpSHUytKA'
+# token='6034119395:AAFIyOUu5shlhmeXKhEy11L3l3xpSHUytKA'
+token = auth_header
 new_game=0
 game=0
 age=0

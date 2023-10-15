@@ -21,7 +21,7 @@ jobs:
             - name: Run Python Script
               run: |
                 pip install requests
-                python D:\Pylearn\python-assignment\53_deeplearning_Augmentation\flower_classification\telegrambot_classification.py
+                python D:/Pylearn/python-assignment/53_deeplearning_Augmentation/flower_classification/telegrambot_classification.py
                 
     run-python-via-powershell:
       needs: run-python
@@ -34,7 +34,7 @@ jobs:
           shell: pwsh
           run: |
             python -m pip install requests
-            python D:\Pylearn\python-assignment\53_deeplearning_Augmentation\flower_classification\telegrambot_classification.py
+            python D:/Pylearn/python-assignment/53_deeplearning_Augmentation/flower_classification/telegrambot_classification.py
         
     run-python-multiple-versions:
       needs: [run-python, run-python-via-powershell]
@@ -67,7 +67,7 @@ jobs:
            run: pip install -r requirements.txt
 
         -  name: Run Python Script
-           run:  python D:\Pylearn\python-assignment\53_deeplearning_Augmentation\flower_classification\telegrambot_classification.py
+           run:  python D:/Pylearn/python-assignment/53_deeplearning_Augmentation/flower_classification/telegrambot_classification.py
 
     run-python-test2:
       needs: [run-python, run-python-via-powershell]

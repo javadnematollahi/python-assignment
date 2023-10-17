@@ -51,6 +51,7 @@ Confusion Matric for flower_aug.h5 model :
 
 LOSS and ACCURACY for tarin and validation data:
 
+![loss_train](https://github.com/javadnematollahi/python-assignment/assets/86910174/af84dba3-8c14-442a-81f4-8ddc18e336b0)
 
 
 C.   The file which name is `telegrambot_classification.py` is made for creating a telegram bot. You can access this telegram bot with this name:

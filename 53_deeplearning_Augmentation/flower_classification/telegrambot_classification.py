@@ -46,7 +46,7 @@ def send_welcome(message):
 	bot.send_message(message.chat.id,"دستور /help رو بزن تا امکانات ربات رو ببینی.") 
 
 @bot.message_handler(commands=['voice'])
-def send_game(message):
+def send_voice(message):
 	global voice
 	voice=1
 	bot.send_message(message.chat.id,"یه جمله ی انگلیسی بفرست تا واست تبدیلش کنم به صدا ") 
@@ -54,39 +54,39 @@ def send_game(message):
 
 
 @bot.message_handler(commands=['age'])
-def send_game(message):
+def send_age(message):
 	global age
 	age=1
 	bot.send_message(message.chat.id,"تاریخ تولدت رو به صورت هجری شمسی وارد کن تا سنت رو بگم") 
 	bot.send_message(message.chat.id,"قالبش هم به این صورت باشه:  yyyy/mm/dd") 
 
 @bot.message_handler(commands=['max'])
-def send_game(message):
+def send_max(message):
 	global max_number
 	max_number=1
 	bot.send_message(message.chat.id,"یک آرایه از اعداد وارد کن تا بزرگترینش رو بهت بگم. اعدادی که وارد میکنی رو با (,) از هم جدا کن.") 
 
 @bot.message_handler(commands=['argmax'])
-def send_game(message):
+def send_argmax(message):
 	global argmax_number
 	argmax_number=1
 	bot.send_message(message.chat.id,"یک آرایه از اعداد وارد کن تا اندیس بزرگترینش رو بهت بگم. اعدادی که وارد میکنی رو با (,) از هم جدا کن.") 
 
 @bot.message_handler(commands=['qrcode'])
-def send_game(message):
+def send_qrcode(message):
 	global myqrcode
 	myqrcode=1
 	bot.send_message(message.chat.id,"یک متن وارد کن تا واست تبدیلش کنم به QrCode") 
 	
 @bot.message_handler(commands=['image'])
-def send_game(message):
+def send_image(message):
 	global image
 	image=1
 	bot.send_message(message.chat.id,"عکس یه گل بفرست(به غیر از خودت) تا اسمش رو حدس بزنم") 
 
 
 @bot.message_handler(commands=['help'])
-def send_game(message):
+def send_help(message):
 	bot.send_message(message.chat.id,"به help بات خوش اومدی:\nتوی این بات از کامندهای زیر می تونی استفاده کنی:\n/start\n/game\n/voice\n/age\n/max\n/argmax\n/qrcode\n/image") 
 	bot.send_message(message.chat.id,"/start\nاگر این کامند رو وارد کنی واست پیام خوش آمدگویی میفرستم😊\n/game\nاگر این کامند رو وارد کنی بازی حدس اعداد رو میتونی انجام بدی.اگر New game رو هم بزنی یه دور جدید شروع میشه و اگر Exit رو بزنی از بازی خارج میشه.\n/voice\nاگر این کامند رو وارد کنی میتونی یک متن انگلیسی بفرستی و صدای اون متن رو تحویل بگیری.\n/age\nاگر این کامند رو وارد کنی ، بعدش تاریخ تولدت رو هم وارد کنی، سنت رو بهت میگم😊\n/max\nاگر این کامند رو وارد کنی، بعدش هم یه تعداد عدد وارد کنی، بزرگترین عدد رو بهت میگم.\n/argmax\nاگر این کامند رو وارد کنی و بعدش یه تعداد عدد وارد کنی، اندیس بزرگترین عدد رو بهت میگم.\n/qrcode\n اگر این کامند رو وارد کنی، بعدش هر متنی دلت میخواد بفرست تا واست تبدیلش کنم به QrCode\n/image\n اگر این کامند رو وارد کنی، بعدش میتونی یه عکس گل بفرستی تا بهت اسمش رو بگم ") 
 

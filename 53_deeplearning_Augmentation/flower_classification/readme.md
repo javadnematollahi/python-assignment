@@ -1,38 +1,10 @@
-# Augmentation before CNN 
+# Augmentation before CNN for flowers
 
-In this session I've worked on two dataset.
-First one has five type of animals and The second one include 17 kind of flower.
+In this session I've worked on animals dataset.
+This dataset has 17 kind of flower.
 
 The problem that I should solve is ooverfitting. I solve this problem by using Augmentation.
 Augmentation is about increasing primary dataset with some techniques.
-
-## Description
-
-### Animals Dataset:
-
-1. There are two python file in animals folder. The file which name is `Animals_CNN_Augmentation.py` is made for creating train and validation data and making model.
-
-2. You can download the created model from below link:
-
- https://drive.google.com/file/d/1PBpGmPeWEVeRv1xmueKpIDyehaJY8cv-/view?usp=drive_link
- 
-3. You can access animal dataset from below link:
-
-https://drive.google.com/drive/folders/1wBUlG3P8YBiB17aUo3O6byzO0DJLcsaS?usp=drive_link
-
-Results of my model is shown in below table::
- 
- |           |       Loss     |        accuracy     |
- |---------: | :----------------: |:----------------: |
- |    Train            |       0.4242            |        0.8375          |
- |    Validation            |        0.8812          |        0.7000           |
-
-Confusion Matric :
-
-![confusionmatric_animal](https://github.com/javadnematollahi/python-assignment/assets/86910174/7bfe6428-c078-4935-8c06-b316a92a101c)
-
-
-2. The name of other python file is `animal_predict.py` and is written for predicting some test pictures which are in test folder.
 
 ### Flowers Dataset:
 
@@ -87,6 +59,7 @@ C.   The file which name is `telegrambot_classification.py` is made for creating
    I use a free host to upload and run my code on it so not to need run this file on your system to use telegram bot.
    This telegram bot has some commands that I wrote them befor and now I add /image command. After send this command, you should send a flower picture and the bot is predicting the name your flower.
 
+
 ## How to install
 
 ```
@@ -95,18 +68,6 @@ pip install -r requirements.txt
 
 ##  How to run
 
-1. Go to animal_classification folder.
-Run below command in terminal to create model and train data:
-
-```
-python Animals_CNN_Augmentation.py
-```
-
-Run below command in terminal to predict some new images in test folder:
-
-```
-python animal_predict.py
-```
 
 1. Go to flower_classification folder.
 Run below command in terminal to create model without augmentation and train data :
@@ -128,4 +89,3 @@ telegrambot_classification.py
 ```
 
 As I upload `telegrambot_classification.py` on a server, you can use telegram bot without runnig this code.
-

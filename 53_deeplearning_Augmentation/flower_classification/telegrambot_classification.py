@@ -11,25 +11,26 @@ import time
 import gtts
 import string
 import qrcode 
+from dotenv import load_dotenv
+from os import environ as env
 
-TOKEN = os.environ["my_token"]
+load_dotenv()
+# TOKEN = os.environ['TOKEN']
 
-# auth_header_encoded = base64.b64encode(f"{TOKEN}".encode("ascii"))
-# auth_header = f"Basic {auth_header_encoded.decode('ascii')}"
+TOKEN = os.getenv('TOKEN_BOT')
 
-# token='6034119395:AAFIyOUu5shlhmeXKhEy11L3l3xpSHUytKA'
 token = TOKEN
-new_game=0
-game=0
-age=0
-voice=0
-max_number=0
-argmax_number=0
-myqrcode=0
-image=0
+new_game = 0
+game = 0
+age = 0
+voice = 0
+max_number = 0
+argmax_number = 0
+myqrcode = 0
+image = 0
 
 labels = ['bluebell', 'buttercup', 'coltsfoot', 'cowslip', 'crocus', 'daffodil', 'daisy', 'dandelion', 'fritillary', 'iris', 'lilyvalley', 'pansy', 'snowdrop', 'sunflower', 'tigerlily', 'tulip', 'windflower']
-model = tf.keras.models.load_model('weights/flower_aug.h5')
+model = tf.keras.models.load_model('weights/flower_aug1.h5')
 
 my_keyboard = types.ReplyKeyboardMarkup(row_width=1)
 key1=types.KeyboardButton("New Game")
@@ -42,6 +43,7 @@ bot = telebot.TeleBot(token, parse_mode=None)
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
 	bot.reply_to(message, f"{message.from_user.first_name} welcome to NEW_pylearn_bot")
+	bot.send_message(message.chat.id,"دستور /help رو بزن تا امکانات ربات رو ببینی.") 
 
 @bot.message_handler(commands=['voice'])
 def send_game(message):
@@ -118,11 +120,11 @@ def photo(message):
 
 		user_image = cv2.imread('gol.jpg')
 		user_image = cv2.resize(user_image, (224,224))
-		print(np.max(user_image))
-		user_image = np.array(user_image)/255
-		print(np.max(user_image))
+		# print(np.max(user_image))
+		# user_image = np.array(user_image)/255
+		# print(np.max(user_image))
 		user_image = np.expand_dims(user_image, axis=0) 
-		print(user_image.shape)
+		# print(user_image.shape)
 		result = model.predict(user_image)
 		out = np.argmax(result)
 		# print(result)

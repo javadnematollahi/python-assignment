@@ -70,12 +70,15 @@ Results of flower_aug.h5 model is shown in below table::
  
  |               |       Loss     |      accuracy    |
  |-------------: | :------------: |:----------------:|
- |    Train      |       0.7134   |        0.7451    |
- |    Validation |        1.1493  |        0.6765    |  
+ |    Train      |       0.7386   |        0.7473    |
+ |    Validation |        0.9368  |        0.7353    |  
 
 Confusion Matric for flower_aug.h5 model :
 
 ![confusionmatric_floweraug](https://github.com/javadnematollahi/python-assignment/assets/86910174/408cf54f-3509-43ce-8fe2-f5ab0a542e6f)
+
+LOSS and ACCURACY for tarin and validation data:
+
 
 
 C.   The file which name is `telegrambot_classification.py` is made for creating a telegram bot. You can access this telegram bot with this name:

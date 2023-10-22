@@ -23,11 +23,17 @@ This dataset has faces pictures of 14 celebrities.
 
 loss and accuracy of train and test:
 
+![train and test](https://github.com/javadnematollahi/python-assignment/assets/86910174/0e410cf3-2889-4afe-94fd-79b7edea7c61)
+
 
 confusion matric:
 
+![confusion](https://github.com/javadnematollahi/python-assignment/assets/86910174/825ed2b8-5951-4f66-8029-ddfa233e77cd)
+
 
 result for predicting 14 test images:
+
+![testimages](https://github.com/javadnematollahi/python-assignment/assets/86910174/bfeacfda-74a7-4b57-8834-7a265257856b)
 
 
 ## How to install

@@ -60,6 +60,10 @@ python predict.py
 
 ![confusion7-7](https://github.com/javadnematollahi/python-assignment/assets/86910174/15d0893f-df23-4c0d-8862-6bbf4ac033ee)
 
+### Predict of 14 test images
+
+![predict7-7](https://github.com/javadnematollahi/python-assignment/assets/86910174/b097ff86-45ab-4d48-92bd-939106803c4e)
+
 
 ### you can see different diagrams of model in below wandb site link:
 

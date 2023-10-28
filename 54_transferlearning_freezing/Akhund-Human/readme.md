@@ -53,8 +53,14 @@ python telegrambot_classification.py
 
 ### loss and accuracy of train and test:
 
+![lossandaccuracy_Akhund_human](https://github.com/javadnematollahi/python-assignment/assets/86910174/53fb46c1-6179-488e-800a-e6fd6adf7e26)
+
 
 ### confusion matric:
 
+![confusion_Akhund_human](https://github.com/javadnematollahi/python-assignment/assets/86910174/0c392250-570d-4dea-aa91-96abda5a1562)
+
 
 ### you can see different diagrams of model in below wandb site link:
+
+https://wandb.ai/javad7189/Akhund_human

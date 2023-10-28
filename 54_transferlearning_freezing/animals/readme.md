@@ -50,6 +50,7 @@ Point:   If you don't have GPU on your system, I recommend to use google colab f
 
 ### Loss and Accuracy of train and test
 
+![lossandaccuracy_animal](https://github.com/javadnematollahi/python-assignment/assets/86910174/e5a32ec2-a319-41c5-a837-1f464bd6f4fd)
 
 
 ### you can see different diagrams of model in below wandb site link:

@@ -59,4 +59,4 @@ python predict.py
 
 ### you can see different diagrams of model in below wandb site link:
 
-https://wandb.ai/javad7189/Akhund_human
+https://wandb.ai/javad7189/7-7faces

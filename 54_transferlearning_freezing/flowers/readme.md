@@ -49,6 +49,7 @@ Point:   If you don't have GPU on your system, I recommend to use google colab f
 
 ### Loss and Accuracy of train and test
 
+![accuracyandloss_flower](https://github.com/javadnematollahi/python-assignment/assets/86910174/8ae9f1e4-454d-4458-a4a5-2ee18f2af2e8)
 
 
 ### you can see different diagrams of model in below wandb site link:

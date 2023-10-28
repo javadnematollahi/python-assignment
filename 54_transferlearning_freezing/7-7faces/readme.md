@@ -53,8 +53,12 @@ python predict.py
 
 ### loss and accuracy of train and test:
 
+![lossandaccuracy7-7](https://github.com/javadnematollahi/python-assignment/assets/86910174/5be8203c-6058-46e8-9402-43df7d5d14c1)
+
 
 ### confusion matric:
+
+![confusion7-7](https://github.com/javadnematollahi/python-assignment/assets/86910174/15d0893f-df23-4c0d-8862-6bbf4ac033ee)
 
 
 ### you can see different diagrams of model in below wandb site link:

@@ -1,0 +1,10 @@
+tensorflow
+matplotlib.pyplot
+sklearn
+numpy
+wandb
+telebot
+scipy
+Pillow
+opencv-python
+dlib

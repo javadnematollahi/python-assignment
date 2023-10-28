@@ -1,0 +1,5 @@
+tensorflow
+matplotlib.pyplot
+sklearn
+numpy
+wandb

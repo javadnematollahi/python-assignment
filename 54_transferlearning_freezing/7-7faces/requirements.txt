@@ -1,0 +1,4 @@
+tensorflow
+matplotlib.pyplot
+sklearn
+numpy

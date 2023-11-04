@@ -43,7 +43,7 @@ python Age_prediction.py
 
 ## Results:
 
-### loss of train and test:
+### loss of train and test with MAE:
 
  |           |       Loss     |   
  |---------: | :----------------: |
@@ -57,3 +57,4 @@ https://wandb.ai/javad7189/Age_detection
 
 ### Result of model on my own picture
 
+![output](https://github.com/javadnematollahi/python-assignment/assets/86910174/e97343e8-aa60-4ba5-b16c-789597e92576)

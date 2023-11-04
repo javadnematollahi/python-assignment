@@ -1,0 +1,12 @@
+tensorflow
+matplotlib.pyplot
+sklearn
+numpy
+wandb
+scipy
+Pillow
+numpy
+pandas
+sklearn
+opencv-python
+dlib

@@ -1,0 +1,7 @@
+tensorflow
+sklearn
+numpy
+wandb
+numpy
+pandas
+opencv-python

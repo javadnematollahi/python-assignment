@@ -50,3 +50,4 @@ https://wandb.ai/javad7189/House_price_by_numerical
 
 ### Result of model on my own house:
 
+![price_base_on_numerical](https://github.com/javadnematollahi/python-assignment/assets/86910174/b252f785-59d4-4a63-aa74-ef96ab7f21e8)

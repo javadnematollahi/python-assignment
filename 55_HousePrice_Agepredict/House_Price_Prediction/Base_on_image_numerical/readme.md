@@ -54,3 +54,4 @@ https://wandb.ai/javad7189/House_price_by_image_numerical
 
 ### Result of model on my own picture
 
+![price_base_on_image_numerical](https://github.com/javadnematollahi/python-assignment/assets/86910174/d912927f-47c0-4524-87c9-685251e6ce88)

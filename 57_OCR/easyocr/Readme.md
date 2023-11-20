@@ -28,7 +28,7 @@ python Easy_OCR.py
 Identifying and extracting text from each image stored in a text file named "image_text.txt."
 
 |          Image name        | chinese.jpg    | english1.jpg    | english2.jpg    | english3.jpg    | farsi1.jpg    | farsi2.jpg    | farsi3.jpg    |
-| :----------------------:   | :---: | :---: |
+| :----------------------:   | :---: | :---: |:---: |:---: |:---: |:---: |:---: |
 |             Image          |  ![chinese](https://github.com/javadnematollahi/python-assignment/assets/86910174/344a3d32-1e34-4b30-8054-fcdbca07be18)
   | ![english1](https://github.com/javadnematollahi/python-assignment/assets/86910174/c68747ad-f3d2-4a94-9e81-aff1308e3085)
    | ![english2](https://github.com/javadnematollahi/python-assignment/assets/86910174/2290bd47-1274-4dfc-a288-6849035e2cdf)

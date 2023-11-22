@@ -29,18 +29,8 @@ Identifying and extracting text from each image stored in a text file named "ima
 
 |          Image name        |  english1.jpg    | english2.jpg    | farsi1.jpg    | farsi2.jpg    | 
 | :----------------------:   | :---: | :---: |:---: |:---: |
-|             Image          |  ![english1](https://github.com/javadnematollahi/python-assignment/assets/86910174/c946ecf8-bca8-4044-bf71-33c40f958d31)
- | ![english2](https://github.com/javadnematollahi/python-assignment/assets/86910174/e016b771-38f1-497e-a35b-551f647e1942)
- | ![farsi1](https://github.com/javadnematollahi/python-assignment/assets/86910174/02fdd9d8-4ad5-458f-b08f-cb793dc3ab77)
- | ![farsi2](https://github.com/javadnematollahi/python-assignment/assets/86910174/a7785c6e-c0aa-4688-8a04-16e4d7c6d36a)
- | 
-| Recognized text from Image | Pz65 PwO  | Bveyyday may nEbe buk Hhee is in cgood somelhing joodL Gluday | بر النا
-٤٢ ٥٦٧
-ب ٩١ | مولانا
-صدنامه فرستادم
-صدراهنشان دادم
-یاراه یوانی
-یانامم ئی خوانی | 
+|             Image          |  ![english1](https://github.com/javadnematollahi/python-assignment/assets/86910174/c946ecf8-bca8-4044-bf71-33c40f958d31)| ![english2](https://github.com/javadnematollahi/python-assignment/assets/86910174/e016b771-38f1-497e-a35b-551f647e1942)| ![farsi1](https://github.com/javadnematollahi/python-assignment/assets/86910174/02fdd9d8-4ad5-458f-b08f-cb793dc3ab77)| ![farsi2](https://github.com/javadnematollahi/python-assignment/assets/86910174/a7785c6e-c0aa-4688-8a04-16e4d7c6d36a)| 
+| Recognized text from Image | Pz65 PwO  | Bveyyday may nEbe buk Hhee is in cgood somelhing joodL Gluday |بر النا٤٢ ٥٦٧ب ٩١| مولانا صدنامه فرستادم صدراهنشان دادم یاراه یوانی یانامم ئی خوانی | 
 
 
 

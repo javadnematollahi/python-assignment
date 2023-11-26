@@ -31,19 +31,19 @@ I use below table for this porpuse:
 
 Big persian license plate dataset:
 
-https|//github.com/mut-deep/IR-LPR
+https://github.com/mut-deep/IR-LPR
 
 deep-text-recognition-benchmark(DTRB) repository:
 
-https|//github.com/clovaai/deep-text-recognition-benchmark/tree/master
+https://github.com/clovaai/deep-text-recognition-benchmark/tree/master
 
 Pretrained models of DTRB:
 
-https|//drive.google.com/drive/folders/15WPsuPJDCzhp2SvYZLRj8mAlT3zmoAMW
+https://drive.google.com/drive/folders/15WPsuPJDCzhp2SvYZLRj8mAlT3zmoAMW
 
 link of my trained model for persian plates:
 
-https|//drive.google.com/file/d/1-5XdLStsty-bqStg1c36WOUC55CMdkAo/view?usp=drive_link
+https://drive.google.com/file/d/1-5XdLStsty-bqStg1c36WOUC55CMdkAo/view?usp=drive_link
 
 ## How to install
 
@@ -62,7 +62,7 @@ You should also read deep-text-recognition-benchmark repository in github to und
 
 # results
 
-results of training model|
+results of training model:
 
 
 |          |  Accuracy    | 

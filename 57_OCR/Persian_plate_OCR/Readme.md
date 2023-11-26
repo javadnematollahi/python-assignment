@@ -57,7 +57,7 @@ Run Below command in terminal to convert make `.gt` file.
 
 ```python convert_XML_gt.py```
 
-To train and test you need to upload DTRB file in google colab and run it. 
+To train and test you need to upload `DTRB.ipynb` file in google colab and run it. 
 You should also read deep-text-recognition-benchmark repository in github to understand better.
 
 # results

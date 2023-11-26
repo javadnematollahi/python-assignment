@@ -10,7 +10,7 @@ At first I should convert dataset to lmdb format and then I give it to model.
 
 I also need to exchange of Persian character to English charater In dataset|
 
-I use below table for this porpuse|
+I use below table for this porpuse:
 
 |  English  |  Persian  | 
 | :-----:   | :-------: |
@@ -54,19 +54,19 @@ I use below table for this porpuse|
 
 ## Links of project
 
-Big persian license plate dataset|
+Big persian license plate dataset:
 
 https|//github.com/mut-deep/IR-LPR
 
-deep-text-recognition-benchmark(DTRB) repository|
+deep-text-recognition-benchmark(DTRB) repository:
 
 https|//github.com/clovaai/deep-text-recognition-benchmark/tree/master
 
-Pretrained models of DTRB|
+Pretrained models of DTRB:
 
 https|//drive.google.com/drive/folders/15WPsuPJDCzhp2SvYZLRj8mAlT3zmoAMW
 
-link of my trained model for persian plates|
+link of my trained model for persian plates:
 
 https|//drive.google.com/file/d/1-5XdLStsty-bqStg1c36WOUC55CMdkAo/view?usp=drive_link
 
@@ -90,7 +90,7 @@ You should also read deep-text-recognition-benchmark repository in github to und
 results of training model|
 
 
-|                  |  Accuracy    | 
+|          |  Accuracy    | 
 | :---------:   | :---: | 
 |  Train   | 80.578 % |
 |  Test | 80.439 % |
@@ -100,10 +100,10 @@ Identifying and extracting text from four images that I used them with easyocr.
 
 
 |          Image name        |  00022.jpg    | 00085.jpg  | 00192.jpg  | 01640.jpg  |  01656.jpg  | 
-| :----------------------:   | :---: | :---: | :---: |:---: |
-|             Image          | | | | |  |
+| :----------------------:   | :-----------: | :--------: | :--------: |:---------: | :---------: |
+|             Image          | ![00022](https://github.com/javadnematollahi/python-assignment/assets/86910174/76bc5ee3-e537-47b5-9886-c88f64245ebc)| ![00085](https://github.com/javadnematollahi/python-assignment/assets/86910174/9f4dddee-9eb6-41e1-9f58-190394c54cc4)| ![00192](https://github.com/javadnematollahi/python-assignment/assets/86910174/ea0e57f6-4c96-489e-8b4a-bf94ce5a0f7e)| ![01640](https://github.com/javadnematollahi/python-assignment/assets/86910174/3a33fcb6-233b-40e5-bdf2-f707f42402ae)| ![01656](https://github.com/javadnematollahi/python-assignment/assets/86910174/5b184fff-b5da-4f84-9453-58130af5b4bf)|
 | Recognized text from Image | 28i21255   | 68b31699 | 67e77379 | 28i21255  | 97i48912 |
-| Change English to Persian | 28ی21255   | 68ب31699 | 67ع77379 | 28ی21255  | 97ی48912 |
+| Change English to Persian  | 28ی21255   | 68ب31699 | 67ع77379 | 28ی21255  | 97ی48912 |
 
 
 

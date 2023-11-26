@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ##  How to run
 
-To run this file you need to upload .... file in google colab and run it. 
+To run this file you need to upload `DTRB.ipynb` file in google colab and run it. 
 You should also read deep-text-recognition-benchmark repository in github to understand better.
 
 # results

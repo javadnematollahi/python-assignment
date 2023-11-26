@@ -78,7 +78,7 @@ Identifying and extracting text from four images that I used them with easyocr.
 | :----------------------:   | :-----------: | :--------: | :--------: |:---------: | :---------: |
 |             Image          | ![00022](https://github.com/javadnematollahi/python-assignment/assets/86910174/76bc5ee3-e537-47b5-9886-c88f64245ebc)| ![00085](https://github.com/javadnematollahi/python-assignment/assets/86910174/9f4dddee-9eb6-41e1-9f58-190394c54cc4)| ![00192](https://github.com/javadnematollahi/python-assignment/assets/86910174/ea0e57f6-4c96-489e-8b4a-bf94ce5a0f7e)| ![01640](https://github.com/javadnematollahi/python-assignment/assets/86910174/3a33fcb6-233b-40e5-bdf2-f707f42402ae)| ![01656](https://github.com/javadnematollahi/python-assignment/assets/86910174/5b184fff-b5da-4f84-9453-58130af5b4bf)|
 | Recognized text from Image | 28i21255   | 68b31699 | 67e77379 | 28i21255  | 97i48912 |
-| Change English to Persian  |  |  |  |   |  |
+| Change English to Persian  | ی=i | ب=b |  ع=e | ی=i  | ی=i  |
 
 
 

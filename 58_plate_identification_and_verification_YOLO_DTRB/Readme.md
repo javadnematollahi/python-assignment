@@ -48,12 +48,16 @@ pip install -r requirements.txt
 
 Run Below command in terminal for license plate identification:
 
-```python identification.py```
+```
+python identification.py
+```
 
 
 Run Below command in terminal for license plate verification:
 
-```python verification.py```
+```
+python verification.py
+```
 
 # results
 

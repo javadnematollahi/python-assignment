@@ -63,6 +63,7 @@ If you look at fourth column in below picture you can see the result of plate ve
 
 In first row my code return True because this plate was defined in my database but other rows have False because they weren't defined in database.
 
+![Verification](https://github.com/javadnematollahi/python-assignment/assets/86910174/594dcfa9-da57-49de-8b46-7050c5ad5288)
 
 
 

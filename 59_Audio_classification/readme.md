@@ -34,7 +34,7 @@ pip install -r requirements.txt
 Run below command in terminal to preprocess voice data:
 
 ```
-python merge_voices.py
+python preprocess.py
 ```
 
 Run below command in terminal to merge voices:

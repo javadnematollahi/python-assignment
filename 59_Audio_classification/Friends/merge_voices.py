@@ -19,3 +19,6 @@ def merge_voices():
             result = pydub.AudioSegment.from_file(f'raw_data/{file}')
             result.export(f"data/{name}.ogg")
 
+if __name__ == "__main__":
+    merge_voices()
+

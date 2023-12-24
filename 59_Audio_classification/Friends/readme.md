@@ -17,11 +17,11 @@ After preprocess I upload my dataset to my googledrive to use it from google col
 
 link of dataset before preprocess:
 
-https://drive.google.com/drive/folders/12TBq4rV6NyBhWXQErDG_3sMr9IGQKUe3?usp=sharing
+
 
 link of dataset after preprocess
 
-https://drive.google.com/drive/folders/1LtkqCaUo37G-shni9UKFyYCtUfbf9Grg?usp=sharing
+
 
 ## How to install
 
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 Run below command in terminal to preprocess voice data:
 
 ```
-python preprocess.py
+python merge_voices.py
 ```
 
 Run below command in terminal to merge voices:
@@ -50,11 +50,20 @@ Run below command in terminal to remove silence from voices and convert them to 
 python remove_silences_and_to_wav.py
 ```
 
-Run below command in terminal to split voices to 1 second parts:
+Run below command in terminal to split voices to 1 second parts and then use them for training model:
 
 ```
 python split_voices.py
 ```
 
+Run below command in terminal to train model:
 
+```
+python train_friends_model.py
+```
 
+Run below command in terminal to inference model:
+
+```
+python inference_friend_voices.py
+```

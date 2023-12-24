@@ -12,3 +12,6 @@ def split_voices():
         for i,chunk in enumerate(chunks):
             if len(chunk) >= 1000:
                 chunk.export(os.path.join('dataset',person_name, f'voice_{i}.wav'))
+
+if __name__ == "__main__":
+    split_voices()

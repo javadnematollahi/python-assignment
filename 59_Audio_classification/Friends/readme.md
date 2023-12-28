@@ -17,11 +17,11 @@ After preprocess I upload my dataset to my googledrive to use it from google col
 
 link of dataset before preprocess:
 
-
+https://drive.google.com/drive/folders/12TBq4rV6NyBhWXQErDG_3sMr9IGQKUe3?usp=sharing
 
 link of dataset after preprocess
 
-
+https://drive.google.com/drive/folders/1LtkqCaUo37G-shni9UKFyYCtUfbf9Grg?usp=sharing
 
 ## How to install
 

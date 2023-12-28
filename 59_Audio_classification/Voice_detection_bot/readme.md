@@ -18,6 +18,10 @@ Best model friend:
 
 https://drive.google.com/drive/folders/1t7kfhGaK6yjPu8LGZBhpjRvFrtxIUChy?usp=sharing
 
+flower model:
+
+https://drive.google.com/file/d/1-5c6U3bY-KeH40TMg9UE5ZTe1cUAVsdr/view?usp=sharing
+
 ## How to install
 
 ```

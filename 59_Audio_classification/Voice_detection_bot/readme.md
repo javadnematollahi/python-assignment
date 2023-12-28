@@ -8,6 +8,16 @@ Voice detection include to part:
 1. detection of my friends' voices
 2. detection of 5 singer voices include ['chavoshi', 'ebi', 'rezasadeghi', 'shadmehr', 'yegane'] 
 
+Links:
+
+Best model singers:
+
+https://drive.google.com/drive/folders/1-cuL86upQl9R32Q8VLJfAR4D23ydMTtm?usp=sharing
+
+Best model friend:
+
+https://drive.google.com/drive/folders/1t7kfhGaK6yjPu8LGZBhpjRvFrtxIUChy?usp=sharing
+
 ## How to install
 
 ```

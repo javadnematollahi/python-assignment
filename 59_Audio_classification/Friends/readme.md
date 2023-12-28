@@ -34,36 +34,7 @@ pip install -r requirements.txt
 Run below command in terminal to preprocess voice data:
 
 ```
-python merge_voices.py
-```
-
-Run below command in terminal to merge voices:
-
-```
-python merge_voices.py
+python audio_classification.py
 ```
 
 
-Run below command in terminal to remove silence from voices and convert them to .wav file:
-
-```
-python remove_silences_and_to_wav.py
-```
-
-Run below command in terminal to split voices to 1 second parts and then use them for training model:
-
-```
-python split_voices.py
-```
-
-Run below command in terminal to train model:
-
-```
-python train_friends_model.py
-```
-
-Run below command in terminal to inference model:
-
-```
-python inference_friend_voices.py
-```

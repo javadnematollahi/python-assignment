@@ -5,7 +5,7 @@ In this Project I'm going to work with voices and classify them. Infact, I want 
 ## Description
 
 To work with voice, we need a preprocess step to convert the voices to our custom format. 
-
+In this project model was trained on 5 singer voices include: ['chavoshi', 'ebi', 'rezasadeghi', 'shadmehr', 'yegane']
 What I did in preprocess step is:
 
 0. separate voice of each singer from music
@@ -34,30 +34,16 @@ pip install -r requirements.txt
 
 ##  How to run
 
-Run below command in terminal to separate music and voice of singer because we just want to use voice of each singer:
+Run below command in terminal to separate music and voice of singer because we just need voice of each singer:
 
 ```
 python spleeter.py
 ```
-Run below command in terminal to preprocess voice data:
+
+
+Run below command in terminal for audio classifying:
 
 ```
-python preprocess.py
-```
-In preprocess below process is done:
-
-1. merge voices  =>  merge_voices.py
-2. remove silence from voices and convert them to .wav file  => remove_silences_and_to_wav.py
-3. split voices to 1 second parts and then use them for training model  =>  split_voices.py
-
-Run below command in terminal to train model:
-
-```
-python train_singer_model.py
+python audio_classification.py
 ```
 
-Run below command in terminal to inference model:
-
-```
-python inference_singer_voices.py
-```

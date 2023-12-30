@@ -13,6 +13,7 @@ import string
 import qrcode 
 import pydub
 import numpy as np
+from collections import Counter
 from dotenv import load_dotenv
 from os import environ as env
 
@@ -36,7 +37,7 @@ singers = ['chavoshi', 'ebi', 'rezasadeghi', 'shadmehr', 'yegane']
 persons = ['abdollah', 'azra', 'davood', 'javad', 'kiana', 'matin', 'mohamad', 'mohamadd', 'mona', 'nima', 'omid', 'parisa', 'parsa', 'saeedi', 'sajedeh', 'shima', 'tara', 'valipour']
 labels = ['bluebell', 'buttercup', 'coltsfoot', 'cowslip', 'crocus', 'daffodil', 'daisy', 'dandelion', 'fritillary', 'iris', 'lilyvalley', 'pansy', 'snowdrop', 'sunflower', 'tigerlily', 'tulip', 'windflower']
 model = tf.keras.models.load_model('best_model_flower/flower_aug1.h5')
-voice_model = tf.keras.models.load_model('best_friend_model')
+friend_model = tf.keras.models.load_model('best_friend_model')
 singer_model = tf.keras.models.load_model('best_singer_model')
 
 my_keyboard = types.ReplyKeyboardMarkup(row_width=1)
@@ -92,8 +93,8 @@ def send_game(message):
 
 @bot.message_handler(commands=['help'])
 def send_game(message):
-	bot.send_message(message.chat.id,"به help بات خوش اومدی:\nتوی این بات از کامندهای زیر می تونی استفاده کنی:\n/start\n/game\n/text_to_voice\n/voice\n/age\n/max\n/argmax\n/qrcode\n/image") 
-	bot.send_message(message.chat.id,"/start\nاگر این کامند رو وارد کنی واست پیام خوش آمدگویی میفرستم😊\n/singer\nاگر این کامند رو وارد کنی و بعد یک آهنگ بفرستی میتونم بهت اسم خواننده رو بگم./audio\nاگر این کامند رو وارد کنی و بعد صداتو بفرستی میتونم بهت بگم تو کی هستی. \n/game\nاگر این کامند رو وارد کنی بازی حدس اعداد رو میتونی انجام بدی.اگر New game رو هم بزنی یه دور جدید شروع میشه و اگر Exit رو بزنی از بازی خارج میشه.\n/text_to_voice\nاگر این کامند رو وارد کنی میتونی یک متن انگلیسی بفرستی و صدای اون متن رو تحویل بگیری.\n/age\nاگر این کامند رو وارد کنی ، بعدش تاریخ تولدت رو هم وارد کنی، سنت رو بهت میگم😊\n/max\nاگر این کامند رو وارد کنی، بعدش هم یه تعداد عدد وارد کنی، بزرگترین عدد رو بهت میگم.\n/argmax\nاگر این کامند رو وارد کنی و بعدش یه تعداد عدد وارد کنی، اندیس بزرگترین عدد رو بهت میگم.\n/qrcode\n اگر این کامند رو وارد کنی، بعدش هر متنی دلت میخواد بفرست تا واست تبدیلش کنم به QrCode\n/image\n اگر این کامند رو وارد کنی، بعدش میتونی یه عکس گل بفرستی تا بهت اسمش رو بگم ") 
+	bot.send_message(message.chat.id,"به help بات خوش اومدی:\nتوی این بات از کامندهای زیر می تونی استفاده کنی:\n/start\n/game\n/audio\n/singer\n/text_to_voice\n/voice\n/age\n/max\n/argmax\n/qrcode\n/image") 
+	bot.send_message(message.chat.id,"/start\nاگر این کامند رو وارد کنی واست پیام خوش آمدگویی میفرستم😊\n/singer\nاگر این کامند رو وارد کنی و بعد یک آهنگ بفرستی میتونم بهت اسم خواننده رو بگم.\n/audio\nاگر این کامند رو وارد کنی و بعد صداتو بفرستی میتونم بهت بگم تو کی هستی. \n/game\nاگر این کامند رو وارد کنی بازی حدس اعداد رو میتونی انجام بدی.اگر New game رو هم بزنی یه دور جدید شروع میشه و اگر Exit رو بزنی از بازی خارج میشه.\n/text_to_voice\nاگر این کامند رو وارد کنی میتونی یک متن انگلیسی بفرستی و صدای اون متن رو تحویل بگیری.\n/age\nاگر این کامند رو وارد کنی ، بعدش تاریخ تولدت رو هم وارد کنی، سنت رو بهت میگم😊\n/max\nاگر این کامند رو وارد کنی، بعدش هم یه تعداد عدد وارد کنی، بزرگترین عدد رو بهت میگم.\n/argmax\nاگر این کامند رو وارد کنی و بعدش یه تعداد عدد وارد کنی، اندیس بزرگترین عدد رو بهت میگم.\n/qrcode\n اگر این کامند رو وارد کنی، بعدش هر متنی دلت میخواد بفرست تا واست تبدیلش کنم به QrCode\n/image\n اگر این کامند رو وارد کنی، بعدش میتونی یه عکس گل بفرستی تا بهت اسمش رو بگم ") 
 
 @bot.message_handler(commands=['audio'])
 def send_game(message):
@@ -133,19 +134,31 @@ def voice_processing(message):
 		audio = audio.set_sample_width(2)
 		# audio = audio.set_frame_rate(48000)
 		audio = audio.set_channels(1)
-		chunks = pydub.silence.split_on_silence(audio, min_silence_len=2000, silence_thresh=-45)
+		chunks = pydub.silence.split_on_silence(audio, min_silence_len=1000, silence_thresh=-45)
 		result = sum(chunks)
-		result.export(f"new_file.wav", format="wav")
-		path = "new_file.wav"
-		x = tf.io.read_file(path)
-		x, sample_rate = tf.audio.decode_wav(x, desired_channels=1, desired_samples=48000,)
-		x = tf.squeeze(x, axis=-1)
-		x = x[tf.newaxis,...]
-
-		pred = voice_model(x)
-		print(np.argmax(pred))
-		print("someone send a voice: ",persons[np.argmax(pred)])
-		bot.send_message(message.chat.id , f' صدات خیلی شبیه {persons[np.argmax(pred)]} است.')
+		chunkses = pydub.utils.make_chunks(result, 1000)
+		os.makedirs('sample', exist_ok=True)
+		for fr in os.listdir('sample'):
+			os.remove(os.path.join('sample',fr))
+		
+		for i,chunk in enumerate(chunkses):
+			if len(chunk) >= 1000:
+				chunk.export(os.path.join('sample', f'voice_{i}.wav'), format='wav')
+		preds = []
+		for f in os.listdir('sample'):
+			if os.path.isfile(os.path.join('sample',f)):
+				x = tf.io.read_file(os.path.join('sample',f))
+				x, sample_rate = tf.audio.decode_wav(x, desired_channels=1, desired_samples=48000,)
+				x = tf.squeeze(x, axis=-1)
+				x = x[tf.newaxis,...]
+				pred = friend_model(x)
+				preds.append(np.argmax(pred))
+		unique = Counter(preds).keys()
+		num = Counter(preds).values()
+		unique=list(unique)
+		num=list(num)
+		print("someone send a voice: ",persons[unique[np.argmax(num)]])
+		bot.send_message(message.chat.id , f' صدات خیلی شبیه {persons[unique[np.argmax(num)]]} است.')
 		new_voice = 0
 	if singer == 1:
 		file_info = bot.get_file(message.voice.file_id)
@@ -158,17 +171,30 @@ def voice_processing(message):
 		audio = audio.set_channels(1)
 		chunks = pydub.silence.split_on_silence(audio, min_silence_len=2000, silence_thresh=-45)
 		result = sum(chunks)
-		result.export(f"new_file.wav", format="wav")
-		path = "new_file.wav"
-		x = tf.io.read_file(path)
-		x, sample_rate = tf.audio.decode_wav(x, desired_channels=1, desired_samples=48000,)
-		x = tf.squeeze(x, axis=-1)
-		x = x[tf.newaxis,...]
-
-		pred = singer_model(x)
-		print(np.argmax(pred))
-		print("singer: ",singers[np.argmax(pred)])
-		bot.send_message(message.chat.id , f' خواننده:  {singers[np.argmax(pred)]}')
+		chunkses = pydub.utils.make_chunks(result, 1000)
+		os.makedirs('sample', exist_ok=True)
+		for fr in os.listdir('sample'):
+			os.remove(os.path.join('sample',fr))
+		
+		for i,chunk in enumerate(chunkses):
+			if len(chunk) >= 1000:
+				chunk.export(os.path.join('sample', f'voice_{i}.wav'), format='wav')
+		preds = []
+		for f in os.listdir('sample'):
+			if os.path.isfile(os.path.join('sample',f)):
+				x = tf.io.read_file(os.path.join('sample',f))
+				x, sample_rate = tf.audio.decode_wav(x, desired_channels=1, desired_samples=48000,)
+				x = tf.squeeze(x, axis=-1)
+				x = x[tf.newaxis,...]
+				pred = singer_model(x)
+				preds.append(np.argmax(pred))
+		unique = Counter(preds).keys()
+		num = Counter(preds).values()
+		unique=list(unique)
+		num=list(num)
+		bot.send_message(message.chat.id , f' خواننده:  {singers[unique[np.argmax(num)]]}')
+		print("singer: ",singers[unique[np.argmax(num)]])
+		
 		singer = 0
 
 

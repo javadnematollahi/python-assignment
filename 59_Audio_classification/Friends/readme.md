@@ -5,11 +5,6 @@ In this Project I'm going to work with voices and classify them.
 ## Description
 
 To work with voice, we need a preprocess step to convert the voices to our custom format. 
-What I did in preprocess step is:
-1. merge voices that are belong to one person
-2. remove silence from voices
-3. convert all voices to .wav format
-4. split voices to 1 second parts and save them in newfolder
 
 After preprocess I upload my dataset to my googledrive to use it from google colab
 

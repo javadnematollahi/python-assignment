@@ -1,0 +1,6 @@
+insightface==0.7.3
+numpy==1.26.2
+opencv_contrib_python==4.8.1.78
+opencv_python==4.8.1.78
+opencv_python_headless==4.8.1.78
+pyfiglet==0.8.post1

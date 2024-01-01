@@ -7,9 +7,9 @@ This project has three section.
 3.  put the last two part in a telegram bot
 
 
-Voice classification has three main part:
+## Voice classification has three main part:
 
-1. preprocess of voices
+### 1. preprocess of voices
 
     * merge voices that are belong to one person
     * remove silence from voices
@@ -18,8 +18,8 @@ Voice classification has three main part:
 
   for singers I did one other process before the top 4 steps:
 
-    * separate voice of each singer from music
+     separate voice of each singer from music
 
-2. train model
+### 2. train model
 
-3. interface 
+### 3. interface 

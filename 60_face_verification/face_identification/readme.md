@@ -51,6 +51,9 @@ python face_identification.py --image enter/image/path --save True
 ```
 # results
 
+In below picture I just can recognized DECAPRIO bacause the other person doesn't exist in my face bank.
+
+![face_detected](https://github.com/javadnematollahi/python-assignment/assets/86910174/638b2dc8-35a4-42cd-b80d-a65e7bb97711)
 
 
 

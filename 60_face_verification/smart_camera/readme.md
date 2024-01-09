@@ -30,6 +30,9 @@ python main.py --update
 
 # results
 
+When yuor face is not defined as a user, you'll be faced with below picture:
+
+![Untitled](https://github.com/javadnematollahi/python-assignment/assets/86910174/3edd44fb-086b-4161-a479-eff3245659f2)
 
 
 

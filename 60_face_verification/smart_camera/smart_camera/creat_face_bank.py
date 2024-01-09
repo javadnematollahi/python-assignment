@@ -46,7 +46,7 @@ class AddUser:
                     face_bank.append(my_dict)
                     break
                 finish = time.time()
-                if finish - start>10:
+                if finish - start>30:
                     recognize = 1
                     break
             if update == False and face_ok == True:

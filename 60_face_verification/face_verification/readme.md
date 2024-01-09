@@ -29,14 +29,17 @@ python face_verification.py --image1 "Enter path of the first image" --image2 "E
 ## Result
 
 If two input picture are related to same person you will see below text in terminal:
+```
    _____                         ____
   / ___/____ _____ ___  ___     / __ \___  ______________  ____  _____
   \__ \/ __ `/ __ `__ \/ _ \   / /_/ / _ \/ ___/ ___/ __ \/ __ \/ ___/
  ___/ / /_/ / / / / / /  __/  / ____/  __/ /  (__  ) /_/ / / / (__  ) 
-/____/\__,_/_/ /_/ /_/\___/  /_/    \___/_/  /____/\____/_/ /_/____/  
+/____/\__,_/_/ /_/ /_/\___/  /_/    \___/_/  /____/\____/_/ /_/____/ 
+```
 
 If two input picture are related to different persons you will see below text in terminal:
 
+```
     ____  _ ________                     __
    / __ \(_) __/ __/__  ________  ____  / /_
   / / / / / /_/ /_/ _ \/ ___/ _ \/ __ \/ __/
@@ -48,3 +51,4 @@ If two input picture are related to different persons you will see below text in
   / /_/ / _ \/ ___/ ___/ __ \/ __ \/ ___/
  / ____/  __/ /  (__  ) /_/ / / / (__  )
 /_/    \___/_/  /____/\____/_/ /_/____/
+```

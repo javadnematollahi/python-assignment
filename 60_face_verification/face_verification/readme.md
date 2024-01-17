@@ -4,7 +4,7 @@ Hi again. This project is about face detection and verfication.
 
 ## Description
 
-Face verfification is done by helping below repository:
+Face verification is done by helping below repository:
 
 https://github.com/deepinsight/insightface/tree/master/python-package
 

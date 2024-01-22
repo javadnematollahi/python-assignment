@@ -100,15 +100,17 @@ class EmojiTextClassifier:
 
 
 if __name__=="__main__":
-    feature_count = 300
-    model_path_save = "best_model_300d"
+    feature_count = 50
+    model_path_save = f"best_model_{feature_count}d"
     etc = EmojiTextClassifier()
-    word_vectors = etc.load_feature_vectors("features\glove.6B.300d.txt")
+    word_vectors = etc.load_feature_vectors(f"features\glove.6B.{feature_count}d.txt")
     etc.load_dataset("Emoji_Text_Classification", word_vectors, feature_count=feature_count)
-    etc.load_model(input_shape=(feature_count, ))
+    etc.load_model(input_shape=(feature_count, ))#, model_path=model_path_save)
     etc.train(best_model_path=model_path_save)
     etc.test(model_path_save, test=False)
     etc.test(model_path_save, test=True)
+    X,Y = etc.read_csv("Emoji_Text_Classification/test.csv")
     start = time.time() 
-    etc.predict("I love all you", word_vectors, feature_count)
-    print("Inference time: ",(time.time() - start))
+    for x in X:
+        etc.predict(x, word_vectors, feature_count)
+    print("Inference time: ",(time.time() - start)/(len(X)))
